@@ -18,16 +18,21 @@
   color: #6070ff;
   font-family: "Poppins", sans-serif;
   font-style: normal;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+  display: flex;
   font-size: 18px;
   line-height: 20px;
   text-decoration: none;
 }
 
 .headline {
-  width: 375px;
+  width: 100vw;
   height: 718px;
   background-image: url("./Images/header-shapes mobile.png");
   background-repeat: no-repeat;
+  background-size: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -69,6 +74,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  margin-bottom: 20px;
 }
 
 .social-media-icons {
@@ -76,9 +82,21 @@
   height: 20px;
 }
 
+.social-media-icons ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 10px;
+  justify-content: flex-start;
+}
+
+.twitter {
+  padding-left: 0px;
+}
 .social-media-icons .twitter,
 .linkedin,
 .mail,
 .github {
-  margin-right: 10px;
+  margin-right: 15px;
 }

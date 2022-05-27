@@ -2,7 +2,7 @@
 
 # Faranosh_Portfolio
 
->Faranosh Amini Portfolio
+>I used the HTML and CSS to design this portfolio.
 
 
 ## Built With
