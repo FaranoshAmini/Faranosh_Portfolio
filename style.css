@@ -74,7 +74,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .social-media-icons {
@@ -85,13 +85,20 @@
 .social-media-icons ul {
   display: flex;
   list-style-type: none;
-  margin-right: 10px;
   justify-content: flex-start;
+  padding-left: 0;
+  margin-top: 0;
 }
 
 .social-media-icons .twitter,
 .linkedin,
 .mail,
 .github {
-  margin-right: 15px;
+  margin-right: 10px;
+  margin-left: 0;
 }
+
+.social-media-icons .mail {
+  height: 20px;
+}
+
