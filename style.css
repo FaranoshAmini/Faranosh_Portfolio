@@ -85,15 +85,10 @@
 .social-media-icons ul {
   display: flex;
   list-style-type: none;
-  padding-left: 0px;
-  margin-top: 0px;
   margin-right: 10px;
   justify-content: flex-start;
 }
 
-.twitter {
-  padding-left: 0px;
-}
 .social-media-icons .twitter,
 .linkedin,
 .mail,
