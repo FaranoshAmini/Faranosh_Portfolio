@@ -340,6 +340,10 @@ s.content .year {
   color: #396df2;
   background-color: #fff;
   margin-top: 50px;
+  font-family: Poppins, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
 }
 
 .btn-resume:hover {
@@ -355,17 +359,6 @@ s.content .year {
 .btn-resume:disabled {
   border: 1px solid #c1c7d0;
   color: #5e6c84;
-}
-
-.btn-resume {
-  font-family: Poppins, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 24px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
 }
 
 .second {
