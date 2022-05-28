@@ -332,7 +332,7 @@ s.content .year {
 }
 
 .info {
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -403,7 +403,7 @@ s.content .year {
   align-items: center;
   padding-left: 10px;
   padding-right: 10px;
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -449,7 +449,7 @@ s.content .year {
 }
 
 .l-connect {
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
