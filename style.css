@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 .toolbar {
   display: flex;
   justify-content: space-between;
@@ -120,7 +121,7 @@
   gap: 12px;
   width: 327px;
   height: 552px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
@@ -142,7 +143,7 @@
   font-weight: 700;
   font-size: 32px;
   color: #172b4d;
-  font-family: poppins;
+  font-family: poppins, sans-serif;
 }
 
 .content {
@@ -180,7 +181,6 @@
 .content .role {
   height: 16px;
   width: 106px;
-  left: 0px;
   top: 8px;
   font-style: normal;
   font-weight: 600;
@@ -195,7 +195,6 @@
 s.content .year {
   height: 16px;
   width: 29px;
-  left: 0px;
   top: 8px;
   display: flex;
   flex-direction: row;
@@ -206,12 +205,11 @@ s.content .year {
 }
 
 .description {
-  font-family: Poppins;
+  font-family: Poppins, Arial, sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  margin-top: 100px;
   color: #344563;
   margin-top: 0;
   margin-bottom: 0;
@@ -231,7 +229,6 @@ s.content .year {
 .card-work .main-buttons {
   display: flex;
   flex-direction: row;
-  /*align-items: left;*/
   gap: 8px;
   width: 230px;
   height: 34px;
@@ -274,6 +271,18 @@ s.content .year {
   border-radius: 8px;
 }
 
+.btn-project {
+  font-family: Poppins, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  margin-right: 180px;
+}
+
 .card-work .btn-project {
   border: 1px solid #6070ff;
   color: #396df2;
@@ -298,17 +307,6 @@ s.content .year {
   color: #5e6c84;
 }
 
-.btn-project {
-  font-family: Poppins;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 24px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  margin-right: 180px;
-}
 .about-myself {
   background-color: white;
   border-top-right-radius: 80px;
@@ -316,14 +314,14 @@ s.content .year {
   margin: -20px;
   padding: 114px 24px;
 }
+
 .first .intro {
   height: 101px;
   width: 327px;
-  font-family: Poppins;
+  font-family: Poppins, Arial, sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
   text-align: left;
 }
 
@@ -338,9 +336,6 @@ s.content .year {
   line-height: 24px;
   border-radius: 8px;
   text-align: center;
-}
-
-.btn-resume {
   border: 1px solid #6070ff;
   color: #396df2;
   background-color: #fff;
@@ -363,7 +358,7 @@ s.content .year {
 }
 
 .btn-resume {
-  font-family: Poppins;
+  font-family: Poppins, Arial, sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 24px;
