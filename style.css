@@ -205,7 +205,7 @@ s.content .year {
 }
 
 .description {
-  font-family: Poppins, Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
@@ -235,8 +235,6 @@ s.content .year {
 }
 
 .card-work .button {
-  padding: 12px 12px;
-  height: 24px;
   display: flex;
   align-items: center;
   background: #ebebff;
@@ -249,6 +247,7 @@ s.content .year {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #6070ff;
+  padding: 4px 12px;
 }
 
 .card-work .buttons {
@@ -273,7 +272,7 @@ s.content .year {
 
 .btn-project {
   font-family: Poppins, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   text-align: center;
@@ -325,6 +324,15 @@ s.content .year {
   text-align: left;
 }
 
+.info {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
 .btn-resume {
   display: flex;
   align-items: center;
@@ -340,7 +348,7 @@ s.content .year {
   color: #396df2;
   background-color: #fff;
   margin-top: 50px;
-  font-family: Poppins, Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.03em;
@@ -388,6 +396,12 @@ s.content .year {
   align-items: center;
   padding-left: 10px;
   padding-right: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
 }
 
 .second h2 {
@@ -424,13 +438,16 @@ s.content .year {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
+  color: #7f8cff;
 }
 
-.second .lname h3 {
+.l-connect {
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 23px;
+  line-height: 24px;
+  color: #7f8cff;
 }
 
 .second .last {
