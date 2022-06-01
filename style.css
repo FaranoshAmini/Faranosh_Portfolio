@@ -7,6 +7,15 @@
   font-family: "Fira sans", sans-serif;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
 .toolbar {
   display: flex;
   justify-content: space-between;
