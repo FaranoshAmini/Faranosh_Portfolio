@@ -570,6 +570,8 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 360px;
+  outline: none;
+  border: none;
 }
 
 #name,
@@ -601,6 +603,8 @@
   margin: 10px 20px;
   padding-left: 12px;
   padding-top: 12px;
+  border: none;
+  outline: none;
 }
 
 .get-touch {
@@ -608,7 +612,7 @@
   flex-direction: row;
   align-items: center;
   text-align: center;
-  background: #fff;
+  background-color: #fff;
   border-radius: 8px;
   width: 120px;
   height: 48px;
@@ -625,12 +629,13 @@
 }
 
 .get-touch:hover {
-  background: #6070ff;
+  background-color: #6070ff;
   color: #fff;
+  border: 1px solid #6070ff;
 }
 
 .get-touch:active {
-  background: #2230d2;
+  background-color: #2230d2;
   color: #fff;
 }
 
