@@ -491,6 +491,8 @@
   align-items: center;
   gap: 12px;
   border-top-left-radius: 80px;
+  border: none;
+  outline: none;
 }
 
 .Elipse-2 {
