@@ -482,13 +482,6 @@
   border-bottom: 1px solid #dfe1e6;
 }
 
-.contact-form{
-  background-image: url("./Images/Contact me.png");
-  background-repeat: no-repeat;
-  /*background-size: cover;*/
-  background-position: 153px 21px;
-}
-
 .contact {
   width: 375px;
   height: 779px;
@@ -498,8 +491,46 @@
   align-items: center;
   gap: 12px;
   border-top-left-radius: 80px;
-  padding: 0;
-  margin: 0;
+}
+
+.Elipse-2 {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 153px;
+  top: 4686px;
+}
+
+.Rectangle-1 {
+  position: absolute;
+  width: 90.7px;
+  height: 60.21px;
+  left: 285px;
+  top: 4625.4px;
+}
+
+.Elipse-3 {
+  position: absolute;
+  width: 43px;
+  height: 69px;
+  left: 330px;
+  top: 4657.75px;
+}
+
+.Rectangle-2 {
+  position: absolute;
+  width: 76.17px;
+  height: 60px;
+  left: 258.8px;
+  top: 5280.89px;
+}
+
+.Elipse-1 {
+  position: absolute;
+  width: 40.11px;
+  height: 40.11px;
+  left: 252.74px;
+  top: 5312.27px;
 }
 
 .contact-title {
@@ -552,7 +583,7 @@
   border-radius: 8px;
   width: 327px;
   height: 48px;
-  margin: 10px 30px;
+  margin: 10px 20px;
   padding-left: 12px;
   padding-top: 4px;
 }
@@ -567,7 +598,7 @@
   border-radius: 8px;
   width: 327px;
   height: 170px;
-  margin: 10px 30px;
+  margin: 10px 20px;
   padding-left: 12px;
   padding-top: 12px;
 }
@@ -591,7 +622,7 @@
   background: #fff;
   gap: 12px;
   padding: 4px 14px;
-  margin-left: 26px;
+  margin-left: 20px;
 }
 
 .get-touch:hover {
@@ -607,4 +638,9 @@
 .get-touch:disabled {
   border: 1px solid #c1c7d0;
   color: #5e6c84;
+}
+
+.Shape {
+  position: relative;
+  top: 2%;
 }
