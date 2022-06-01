@@ -502,6 +502,7 @@ body {
   border-top-left-radius: 80px;
   border: none;
   outline: none;
+  border: 1px solid #fff;
 }
 
 .Elipse-2 {
@@ -599,6 +600,7 @@ body {
   margin: 10px 20px;
   padding-left: 12px;
   padding-top: 4px;
+  border: 1px solid #fff;
 }
 
 #message {
@@ -637,6 +639,7 @@ body {
   gap: 12px;
   padding: 4px 14px;
   margin-left: 20px;
+  border: 1px solid #fff;
 }
 
 .get-touch:hover {
