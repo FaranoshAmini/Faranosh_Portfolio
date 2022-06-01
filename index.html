@@ -281,11 +281,54 @@
         </ul>
       </div>
     </section>
-    <footer class="contact">
-        <h1 class="contact-title">Contact me</h1>
-        <p class="contact-description">
-          If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it 
-        </p>
-    </footer>
+    <footer class="contact-form">
+    <div class="contact">
+      <h1 class="contact-title">Contact me</h1>
+      <p class="contact-description">
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I’d love to help
+        with it
+      </p>
+      <form
+        action="https://formspree.io/f/xvollyol"
+        class="contact-form"
+        method="POST"
+      >
+        <ul class="inputs">
+          <li>
+            <input
+              type="text"
+              value="Faranosh"
+              required
+              placeholder="Enter Your Name"
+              maxlength="30"
+              id="name"
+            />
+          </li>
+          <li>
+            <input
+              type="email"
+              value="faranosh.amini4@gmail.com"
+              placeholder="Enter Your Email"
+              id="email"
+              required
+            />
+          </li>
+          <li>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="8"
+              maxlength="500"
+              placeholder="Write your message here"
+              required
+            ></textarea>
+          </li>
+        </ul>
+        <input class="get-touch" type="submit" value="Get It Touch">
+      </form>
+    </div>
+  </footer>
   </body>
 </html>

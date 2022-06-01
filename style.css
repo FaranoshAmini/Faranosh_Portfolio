@@ -482,17 +482,22 @@
   border-bottom: 1px solid #dfe1e6;
 }
 
+.contact-form{
+  background-image: url("./Images/Contact me.png");
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  background-position: 153px 21px;
+}
+
 .contact {
   width: 375px;
   height: 779px;
-  background-image: url("./Images/Contact me.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-color: #6070ff;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  gap: 12px;
   border-top-left-radius: 80px;
-  background: #6070ff;
   padding: 0;
   margin: 0;
 }
@@ -524,5 +529,82 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  color: #EBEBFF;
+  color: #ebebff;
+}
+
+.inputs {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 360px;
+}
+
+#name,
+#email {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  border-radius: 8px;
+  width: 327px;
+  height: 48px;
+  margin: 10px 30px;
+  padding-left: 12px;
+  padding-top: 4px;
+}
+
+#message {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+  border-radius: 8px;
+  width: 327px;
+  height: 170px;
+  margin: 10px 30px;
+  padding-left: 12px;
+  padding-top: 12px;
+}
+
+.get-touch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+  width: 120px;
+  height: 48px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  background: #fff;
+  gap: 12px;
+  padding: 4px 14px;
+  margin-left: 26px;
+}
+
+.get-touch:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.get-touch:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.get-touch:disabled {
+  border: 1px solid #c1c7d0;
+  color: #5e6c84;
 }
