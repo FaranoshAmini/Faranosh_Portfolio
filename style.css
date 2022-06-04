@@ -46,15 +46,21 @@ body {
 }
 
 .headline {
+  display: flex;
+  justify-content: center;
+  background-image: url(./Images/Mobile-version/background-1.png),
+    url(./Images/Mobile-version/background-2.png);
+  background-repeat: no-repeat;
+  background-size: 100%, cover;
   width: 375px;
   height: 718px;
-  background-image: url("./Images/header-shapes mobile.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 70px 24px;
+  padding: 130px 24px;
+}
+
+.menu {
+  display: none;
 }
 
 .headline h1 {
@@ -83,6 +89,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  margin-top: 20px;
 }
 
 .headline h3 {
@@ -92,7 +99,8 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 24px;
-  margin-top: 55px;
+  margin-top: 40px;
+  padding-top: 0;
 }
 
 .social-media-icons {
@@ -105,7 +113,6 @@ body {
   list-style-type: none;
   justify-content: flex-start;
   padding-left: 0;
-  margin-top: 10px;
 }
 
 .social-media-icons .twitter,
@@ -128,6 +135,7 @@ body {
   gap: 90px;
   background: #e5e5e5;
   background-color: white;
+  padding-left: 17px;
 }
 
 .card-work {
@@ -143,7 +151,19 @@ body {
   border-radius: 16px;
 }
 
+.desktop {
+  display: none;
+}
+
 .snapshot-portfolio {
+  height: 220px;
+  width: 300px;
+  left: 16px;
+  top: 16px;
+  border-radius: 8px;
+}
+
+.portfolio {
   height: 220px;
   width: 300px;
   left: 16px;
@@ -168,8 +188,8 @@ body {
   flex-direction: row;
   align-items: center;
   font-size: 13px;
-  padding: 12px 0;
-  margin: 0;
+  margin-top: 8px;
+  margin-left: 4px;
   gap: 12px;
   width: 236px;
   height: 32px;
@@ -229,9 +249,8 @@ body {
   line-height: 24px;
   text-align: left;
   color: #344563;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 12px;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 
 .card-work ul {
@@ -266,7 +285,7 @@ body {
   letter-spacing: 0.03em;
   color: #6070ff;
   padding: 4px 12px;
-  margin-left: 8px;
+  margin-left: 7px;
 }
 
 .card-work .buttons {
@@ -281,12 +300,14 @@ body {
   align-items: center;
   flex-direction: row;
   justify-content: center;
-  padding: 12px;
+  padding: 10px;
   gap: 10px;
   width: 124px;
   height: 48px;
   line-height: 24px;
   border-radius: 8px;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .btn-project {
@@ -298,7 +319,7 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
-  margin-right: 155px;
+  margin-right: 157px;
 }
 
 .card-work .btn-project {
@@ -330,7 +351,7 @@ body {
   border-top-right-radius: 80px;
   width: 375px;
   margin: -20px;
-  padding: 114px 24px;
+  padding: 114px 34px;
 }
 
 .first .intro {
@@ -350,6 +371,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  margin-top: 10px;
 }
 
 .btn-resume {
@@ -366,7 +388,7 @@ body {
   border: 1px solid #6070ff;
   color: #396df2;
   background-color: #fff;
-  margin-top: 50px;
+  margin-top: 60px;
   font-family: "Poppins", Arial, sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -467,6 +489,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  margin-top: 10px;
 }
 
 .second .last {
@@ -494,54 +517,17 @@ body {
 .contact {
   width: 375px;
   height: 779px;
-  background-color: #6070ff;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 12px;
-  border-top-left-radius: 80px;
   border: none;
   outline: none;
-}
-
-.Elipse-2 {
-  position: absolute;
-  width: 21px;
-  height: 21px;
-  left: 153px;
-  top: 4686px;
-}
-
-.Rectangle-1 {
-  position: absolute;
-  width: 90.7px;
-  height: 60.21px;
-  left: 285px;
-  top: 4625.4px;
-}
-
-.Elipse-3 {
-  position: absolute;
-  width: 43px;
-  height: 69px;
-  left: 330px;
-  top: 4657.75px;
-}
-
-.Rectangle-2 {
-  position: absolute;
-  width: 76.17px;
-  height: 60px;
-  left: 258.8px;
-  top: 5280.89px;
-}
-
-.Elipse-1 {
-  position: absolute;
-  width: 40.11px;
-  height: 40.11px;
-  left: 252.74px;
-  top: 5312.27px;
+  background-image: url(./Images/Mobile-version/contact-1.png),
+    url(./Images/Mobile-version/contact-2.png);
+  background-position: right top, left top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 203px, 375px;
 }
 
 .contact-title {
@@ -556,7 +542,7 @@ body {
   width: 801px;
   height: 56px;
   left: 60px;
-  top: 4734px;
+  top: 4654px;
 }
 
 .contact-description {
@@ -564,7 +550,7 @@ body {
   width: 327px;
   height: 102px;
   left: 24px;
-  top: 4802px;
+  top: 4732px;
   font-family: "Poppins", Arial, sans-serif;
   text-align: center;
   font-style: normal;
@@ -580,7 +566,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin-top: 360px;
+  margin-top: 340px;
   outline: none;
   border: none;
 }
@@ -660,4 +646,309 @@ body {
 .Shape {
   position: relative;
   top: 2%;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background: #e5e5e5;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .toolbar {
+    display: flex;
+    margin-top: -10px;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 8px;
+    background: white;
+    margin-left: 0;
+    padding-right: 5%;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .logo {
+    width: 190px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 7%;
+  }
+
+  .toolbar #LOGO {
+    color: #6070ff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: none;
+    padding-top: 40px;
+  }
+
+  .menu {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 30px;
+    padding-bottom: 39px;
+  }
+
+  .menu-bar {
+    width: 30%;
+    column-gap: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10%;
+  }
+
+  .MB {
+    display: inline;
+    list-style-type: none;
+  }
+
+  .menu ul li a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .headline {
+    display: flex;
+    justify-content: center;
+    background-image: url(./Images/Desktop-version/desktop-1.png),
+      url(./Images/Desktop-version/desktop-2.png);
+    background-repeat: no-repeat;
+    background-size: 100%, cover;
+    border-bottom-left-radius: 80px;
+    height: 600px;
+    width: 100%;
+  }
+
+  .headline h1 {
+    width: 100%;
+    height: 120px;
+    margin-left: 20%;
+    margin-top: -10%;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    list-style: 20px;
+    color: #172b4d;
+    display: flex;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .headline p {
+    width: 70%;
+    height: 100px;
+    margin-left: 20%;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #344563;
+    margin-top: 1%;
+  }
+
+  .headline .connect {
+    color: #7f8cff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0;
+    margin-left: 20%;
+  }
+
+  .social-media-icons ul {
+    display: flex;
+    list-style-type: none;
+    width: 160.17px;
+    height: 20px;
+    margin-left: 246px;
+    margin-top: 10px;
+  }
+
+  #work {
+    display: grid;
+    padding: 114px 24px;
+    background: #e5e5e5;
+    padding-left: 15%;
+    padding-right: 8%;
+  }
+  .snapshot-portfolio {
+    display: none;
+  }
+
+  .card-work {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 16px;
+    gap: 12px;
+    width: 90%;
+    height: 552px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+  }
+
+  .card-work .left {
+    width: 97%;
+    height: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-work .right {
+    width: 100%;
+    height: 97%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .desktop {
+    display: flex;
+    width: 90%;
+    height: 90%;
+  }
+
+  .project-title {
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+
+  .content {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .description {
+    margin-bottom: 10px;
+    padding-left: 0;
+    margin-left: 10px;
+  }
+
+  .card-work .main-button {
+    padding-top: 20px;
+    margin-right: 0;
+    margin-left: 13px;
+  }
+
+  .card-work .more {
+    margin-bottom: 75px;
+    padding-left: 15px;
+  }
+
+  #card-two .left,
+  #card-four .left {
+    order: 1;
+  }
+
+  .about-myself {
+    background-color: white;
+    border-top-right-radius: 10%;
+    width: auto;
+    height: 660px;
+    margin-top: 10%;
+  }
+
+  .about-myself {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .first {
+    margin-left: 20%;
+  }
+
+  .info {
+    width: 447px;
+    height: 102px;
+  }
+
+  ul .social-icon {
+    margin-right: 100%;
+  }
+
+  .lname {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .contact {
+    background-image: url(./Images/Desktop-version/backgroung-3.png),
+      url(./Images/Desktop-version/background-4.png);
+    background-size: 1440px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    height: 800px;
+    width: 100%;
+    margin: auto;
+    padding-right: 0;
+    margin-right: 0;
+  }
+
+  .contact .contact-title {
+    width: 801px;
+    margin-left: 32%;
+    position: relative;
+    top: 20%;
+    font-size: 40px;
+  }
+
+  .contact-description {
+    width: 569px;
+    position: relative;
+    top: 20%;
+    margin-left: 1%;
+    margin-top: 0;
+    font-size: 20px;
+  }
+
+  .contact-form {
+    width: 447px;
+    left: 20px;
+    position: relative;
+    bottom: 28%;
+  }
+
+  #name,
+  #email,
+  #message {
+    width: 447px;
+  }
+
+  .get-touch {
+    text-align: center;
+    margin-left: 35%;
+  }
+
+  .Shape {
+    position: relative;
+    top: -15%;
+    margin-left: 2%;
+  }
 }
