@@ -10,30 +10,33 @@
   <body>
     <header class="toolbar">
       <div class="logo">
-        <a href="#"><b>My Logo</b></a>
+        <a id="LOGO" href="#"><b>My Logo</b></a>
       </div>
       <nav class="icon">
-        <img src="Images/Union.png" alt="Menu icon" />
+        <img src="Images/Mobile-version/Union.png" alt="Menu icon" />
       </nav>
+      <div class="menu">
+        <ul class="menu-bar">
+          <li class="MB"><a href="#">Portfolio</a></li>
+          <li class="MB"><a href="#">About</a></li>
+          <li class="MB"><a href="#">Contact</a></li>
+        </ul>
+      </div>
     </header>
     <section class="headline">
-      <h1>
-        I'm Faranosh <br />
-        Glad to see <br />
-        you!
-      </h1>
+      <h1>I'm Faranosh <br />Glad to see you!</h1>
       <p>
         I’m a software developer! I can help you build a product ,feature or
         website Look through some of my work and experience! If you like what
         you see and have a project you need coded, don’t hestiate to contact me.
       </p>
-      <h3>LET'S CONNECT</h3>
+      <h3 class="connect">LET'S CONNECT</h3>
       <div class="social-media-icons">
         <ul>
           <li>
             <a href="#"
               ><img
-                src="./Images/Social/twitter.svg"
+                src="./Images/Mobile-version/Social/twitter.svg"
                 alt="Twitter Icon"
                 class="twitter"
             /></a>
@@ -41,159 +44,205 @@
           <li>
             <a href="#"
               ><img
-                src="./Images/Social/linkedin.svg"
+                src="./Images/Mobile-version/Social/linkedin.svg"
                 alt="linkedin Icon"
                 class="linkedin"
             /></a>
           </li>
           <li>
             <a href="#">
-              <img src="./Images/Social/mail.svg" alt="Mail Icon" class="mail"
+              <img
+                src="./Images/Mobile-version/Social/mail.svg"
+                alt="Mail Icon"
+                class="mail"
             /></a>
           </li>
           <li>
             <a href="#">
               <img
-                src="./Images/Social/github.svg"
+                src="./Images/Mobile-version/Social/github.svg"
                 alt="Github Icon"
                 class="github"
             /></a>
           </li>
+
           <li>
             <a href="#"
-              ><img src="./Images/Social/other.svg" alt="Other Icon"
+              ><img
+                src="./Images/Mobile-version/Social/other.svg"
+                alt="Other Icon"
+                class="other"
             /></a>
           </li>
         </ul>
       </div>
     </section>
     <section id="work">
-      <div class="card-work">
-        <img
-          src="Images/Snapshoot-Portfolio.png"
-          alt="Tonic image"
-          class="snapshot-portfolio"
-        />
-        <nav class="title">
-          <h2 class="project-title">Tonic</h2>
-          <nav class="content">
-            <div class="clint">Canopy</div>
-            <div class="counter"></div>
-            <div class="role">Back End Dev</div>
-            <div class="counter"></div>
-            <div class="year">2015</div>
-          </nav>
-        </nav>
-        <p class="description">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <div class="main-button">
-          <ul class="buttons">
-            <li class="button">HTML</li>
-            <li class="button">CSS</li>
-            <li class="button">Javascript</li>
-          </ul>
+      <div class="card-work" id="card-one">
+        <div class="left">
+          <img
+            src="Images/Mobile-version/Snapshoot-Portfolio.png"
+            alt="Tonic image"
+            class="snapshot-portfolio"
+          />
+          <img
+            src="Images/Desktop-version/nature.png"
+            alt="nature image"
+            class="desktop"
+          />
         </div>
-        <div class="more">
-          <button class="btn btn-project" type="button">See Project</button>
+        <div class="right">
+          <nav class="title">
+            <h2 class="project-title">Tonic</h2>
+            <nav class="content">
+              <div class="clint">CANOPY</div>
+              <div class="counter"></div>
+              <div class="role">Back End Dev</div>
+              <div class="counter"></div>
+              <div class="year">2015</div>
+            </nav>
+          </nav>
+          <p class="description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <div class="main-button">
+            <ul class="buttons">
+              <li class="button">HTML</li>
+              <li class="button">CSS</li>
+              <li class="button">Javascript</li>
+            </ul>
+          </div>
+          <div class="more">
+            <button class="btn btn-project" type="button">See Project</button>
+          </div>
         </div>
       </div>
-      <div class="card-work">
-        <img
-          src="Images/availablity.png"
-          alt="professional image"
-          class="snapshot-portfolio"
-        />
-        <nav class="title">
-          <h2 class="project-title">Multi-Post Stories</h2>
-          <nav class="content">
-            <div class="clint">Canopy</div>
-            <div class="counter"></div>
-            <div class="role">Back End Dev</div>
-            <div class="counter"></div>
-            <div class="year">2015</div>
-          </nav>
-        </nav>
-        <p class="description">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <div class="main-button">
-          <ul class="buttons">
-            <li class="button">HTML</li>
-            <li class="button">CSS</li>
-            <li class="button">Javascript</li>
-          </ul>
+      <div class="card-work" id="card-two">
+        <div class="left">
+          <img
+            src="Images/Mobile-version/professional.png"
+            alt="professional image"
+            class="snapshot-portfolio"
+          />
+          <img
+            src="./Images/Desktop-version/professional.png"
+            alt="professional image"
+            class="desktop"
+          />
         </div>
-        <div class="more">
-          <button class="btn btn-project" type="button">See Project</button>
+        <div class="right">
+          <nav class="title">
+            <h2 class="project-title">Multi-Post Stories</h2>
+            <nav class="content">
+              <div class="clint">Canopy</div>
+              <div class="counter"></div>
+              <div class="role">Back End Dev</div>
+              <div class="counter"></div>
+              <div class="year">2015</div>
+            </nav>
+          </nav>
+          <p class="description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <div class="main-button">
+            <ul class="buttons">
+              <li class="button">HTML</li>
+              <li class="button">CSS</li>
+              <li class="button">Javascript</li>
+            </ul>
+          </div>
+          <div class="more">
+            <button class="btn btn-project" type="button">See Project</button>
+          </div>
         </div>
       </div>
-      <div class="card-work">
-        <img
-          src="Images/yoga.png"
-          alt="yoga image"
-          class="snapshot-portfolio"
-        />
-        <nav class="title">
-          <h2 class="project-title">Tonic</h2>
-          <nav class="content">
-            <div class="clint">Canopy</div>
-            <div class="counter"></div>
-            <div class="role">Back End Dev</div>
-            <div class="counter"></div>
-            <div class="year">2015</div>
-          </nav>
-        </nav>
-        <p class="description">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <div class="main-button">
-          <ul class="buttons">
-            <li class="button">HTML</li>
-            <li class="button">CSS</li>
-            <li class="button">Javascript</li>
-          </ul>
+      <div class="card-work" id="card-three">
+        <div class="left">
+          <img
+            src="Images/Mobile-version/yoga.png"
+            alt="yoga image"
+            class="snapshot-portfolio"
+          />
+          <img
+            src="./Images/Desktop-version/facebook.png"
+            alt="facebook image"
+            class="desktop"
+          />
         </div>
-        <div class="more">
-          <button class="btn btn-project" type="button">See Project</button>
+        <div class="right">
+          <nav class="title">
+            <h2 class="project-title">Tonic</h2>
+            <nav class="content">
+              <div class="clint">Canopy</div>
+              <div class="counter"></div>
+              <div class="role">Back End Dev</div>
+              <div class="counter"></div>
+              <div class="year">2015</div>
+            </nav>
+          </nav>
+          <p class="description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <div class="main-button">
+            <ul class="buttons">
+              <li class="button">HTML</li>
+              <li class="button">CSS</li>
+              <li class="button">Javascript</li>
+            </ul>
+          </div>
+          <div class="more">
+            <button class="btn btn-project" type="button">See Project</button>
+          </div>
         </div>
       </div>
-      <div class="card-work">
-        <img
-          src="Images/availablity.png"
-          alt="availablity image"
-          class="snapshot-portfolio"
-        />
-        <nav class="title">
-          <h2 class="project-title">Multi-Post Stories</h2>
-          <nav class="content">
-            <div class="clint">Canopy</div>
-            <div class="counter"></div>
-            <div class="role">Back End Dev</div>
-            <div class="counter"></div>
-            <div class="year">2015</div>
-          </nav>
-        </nav>
-        <p class="description">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <div class="main-button">
-          <ul class="buttons">
-            <li class="button">HTML</li>
-            <li class="button">CSS</li>
-            <li class="button">Javascript</li>
-          </ul>
+      <div class="card-work" id="card-four">
+        <div class="left">
+          <img
+            src="Images/Mobile-version/availablity.png"
+            alt="availablity image"
+            class="snapshot-portfolio"
+          />
+          <img
+            src="./Images/Desktop-version/navigate.png"
+            alt="navigate image"
+            class="desktop"
+          />
         </div>
-        <div class="more">
-          <button class="btn btn-project" type="button">See Project</button>
+
+        <div class="right">
+          <nav class="title">
+            <h2 class="project-title">Multi-Post Stories</h2>
+            <nav class="content">
+              <div class="clint">Canopy</div>
+              <div class="counter"></div>
+              <div class="role">Back End Dev</div>
+              <div class="counter"></div>
+              <div class="year">2015</div>
+            </nav>
+          </nav>
+          <p class="description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <div class="main-button">
+            <ul class="buttons">
+              <li class="button">HTML</li>
+              <li class="button">CSS</li>
+              <li class="button">Javascript</li>
+            </ul>
+          </div>
+          <div class="more">
+            <button class="btn btn-project" type="button">See Project</button>
+          </div>
         </div>
       </div>
-      <div class="about-myself">
-        <nav class="first">
+    </section>
+    <div class="last">
+      <section class="about-myself">
+        <div class="first">
           <h2 class="intro">About <br />Myself</h2>
           <p class="info">
             Hello I’m a software developer! I can help you build a product ,
@@ -209,7 +258,7 @@
               <li>
                 <a href="#"
                   ><img
-                    src="./Images/Social/twitter.svg"
+                    src="./Images/Mobile-version/Social/twitter.svg"
                     alt="Twitter Icon"
                     class="twitter"
                 /></a>
@@ -217,7 +266,7 @@
               <li>
                 <a href="#"
                   ><img
-                    src="./Images/Social/linkedin.svg"
+                    src="./Images/Mobile-version/Social/linkedin.svg"
                     alt="linkedin Icon"
                     class="linkedin"
                 /></a>
@@ -225,7 +274,7 @@
               <li>
                 <a href="#">
                   <img
-                    src="./Images/Social/mail.svg"
+                    src="./Images/Mobile-version/Social/mail.svg"
                     alt="Mail Icon"
                     class="mail"
                 /></a>
@@ -233,14 +282,16 @@
               <li>
                 <a href="#">
                   <img
-                    src="./Images/Social/github.svg"
+                    src="./Images/Mobile-version/Social/github.svg"
                     alt="Github Icon"
                     class="github"
                 /></a>
               </li>
               <li>
                 <a href="#"
-                  ><img src="./Images/Social/other.svg" alt="Other Icon"
+                  ><img
+                    src="./Images/Mobile-version/Social/other.svg"
+                    alt="Other Icon"
                 /></a>
               </li>
             </ul>
@@ -248,45 +299,40 @@
           <div class="more">
             <button class="btn btn-resume" type="button">Get my resume</button>
           </div>
-        </nav>
+        </div>
         <ul class="second">
           <li class="language">
             <div class="lang-section">
               <h2>Languages</h2>
-              <img src="Images/bottom-arrow.png" alt="Arrow" />
+              <img src="Images/Mobile-version/bottom-arrow.png" alt="Arrow" />
             </div>
             <ul class="languages">
               <li class="lname">
-                <img src="Images/html.png" alt="html Icon" />
+                <img src="Images/Mobile-version/html.png" alt="html Icon" />
                 <h3>HTML</h3>
               </li>
               <li class="lname">
-                <img src="Images/css.png" alt="Css Icon" />
+                <img src="Images/Mobile-version/css.png" alt="Css Icon" />
                 <h3>CSS</h3>
               </li>
               <li class="lname">
-                <img src="Images/Js.png" alt="Js Icon" />
+                <img src="Images/Mobile-version/js.png" alt="Js Icon" />
                 <h3>Javascript</h3>
               </li>
             </ul>
           </li>
           <li class="last">
             <h2>Framework</h2>
-            <img src="Images/right-arrow.png" alt="arrow" />
+            <img src="Images/Mobile-version/right-arrow.png" alt="arrow" />
           </li>
           <li class="skill">
             <h2>Skills</h2>
-            <img src="Images/right-arrow.png" alt="arrow" />
+            <img src="Images/Mobile-version/right-arrow.png" alt="arrow" />
           </li>
         </ul>
-      </div>
-    </section>
+      </section>
+    </div>
     <footer class="contact">
-      <img src="./Images/Ellipse-2.png" alt="Elipse" class="Elipse-2" />
-      <img src="./Images/Rectangle-1.png" alt="Rectangle" class="Rectangle-1" />
-      <img src="./Images/Ellipse-3.png" alt="Elipse" class="Elipse-3" />
-      <img src="./Images/Rectangle-2.png" alt="Rectangle" class="Rectangle-2" />
-      <img src="./Images/Ellipse-1.png" alt="Elipse" class="Elipse-1" />
       <h1 class="contact-title">Contact me</h1>
       <p class="contact-description">
         If you have an application you are interested in developing, a feature
@@ -332,7 +378,11 @@
         </ul>
         <button class="get-touch" type="submit">Get It Touch</button>
       </form>
-      <img src="./Images/Shape.png" class="Shape" alt="Shape icon" />
+      <img
+        src="./Images/Mobile-version/Shape.png"
+        class="Shape"
+        alt="Shape icon"
+      />
     </footer>
   </body>
 </html>
