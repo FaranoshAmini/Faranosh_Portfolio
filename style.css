@@ -724,7 +724,7 @@ body {
   .headline {
     display: flex;
     justify-content: center;
-    background-image: url(./Images/Desktop-version/desktop-1.png),url(./Images/Desktop-version/desktop-2.png);
+    background-image: url(./Images/Desktop-version/desktop-1.png), url(./Images/Desktop-version/desktop-2.png);
     background-repeat: no-repeat;
     background-size: 100%, cover;
     border-bottom-left-radius: 80px;
