@@ -894,7 +894,7 @@ body {
   }
 
   .contact {
-    background-image: url(./Images/Desktop-version/backgroung-3.png),url(./Images/Desktop-version/background-4.png);
+    background-image: url(./Images/Desktop-version/backgroung-3.png), url(./Images/Desktop-version/background-4.png);
     background-size: 1440px;
     background-repeat: no-repeat;
     background-color: #fff;
