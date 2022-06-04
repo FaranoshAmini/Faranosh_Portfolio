@@ -48,8 +48,7 @@ body {
 .headline {
   display: flex;
   justify-content: center;
-  background-image: url(./Images/Mobile-version/background-1.png),
-    url(./Images/Mobile-version/background-2.png);
+  background-image: url(./Images/Mobile-version/background-1.png),url(./Images/Mobile-version/background-2.png);
   background-repeat: no-repeat;
   background-size: 100%, cover;
   width: 375px;
@@ -523,8 +522,7 @@ body {
   gap: 12px;
   border: none;
   outline: none;
-  background-image: url(./Images/Mobile-version/contact-1.png),
-    url(./Images/Mobile-version/contact-2.png);
+  background-image: url(./Images/Mobile-version/contact-1.png),url(./Images/Mobile-version/contact-2.png);
   background-position: right top, left top;
   background-repeat: no-repeat, no-repeat;
   background-size: 203px, 375px;
@@ -726,8 +724,7 @@ body {
   .headline {
     display: flex;
     justify-content: center;
-    background-image: url(./Images/Desktop-version/desktop-1.png),
-      url(./Images/Desktop-version/desktop-2.png);
+    background-image: url(./Images/Desktop-version/desktop-1.png),url(./Images/Desktop-version/desktop-2.png);
     background-repeat: no-repeat;
     background-size: 100%, cover;
     border-bottom-left-radius: 80px;
@@ -793,6 +790,7 @@ body {
     padding-left: 15%;
     padding-right: 8%;
   }
+
   .snapshot-portfolio {
     display: none;
   }
@@ -871,9 +869,6 @@ body {
     width: auto;
     height: 660px;
     margin-top: 10%;
-  }
-
-  .about-myself {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
@@ -899,8 +894,7 @@ body {
   }
 
   .contact {
-    background-image: url(./Images/Desktop-version/backgroung-3.png),
-      url(./Images/Desktop-version/background-4.png);
+    background-image: url(./Images/Desktop-version/backgroung-3.png),url(./Images/Desktop-version/background-4.png);
     background-size: 1440px;
     background-repeat: no-repeat;
     background-color: #fff;
