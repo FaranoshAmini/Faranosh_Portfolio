@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Fira sans", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
 html,
@@ -48,7 +48,8 @@ body {
 .headline {
   display: flex;
   justify-content: center;
-  background-image: url(./Images/Mobile-version/background-1.png), url(./Images/Mobile-version/background-2.png);
+  background-image: url(./Images/Mobile-version/background-1.png),
+    url(./Images/Mobile-version/background-2.png);
   background-repeat: no-repeat;
   background-size: 100%, cover;
   width: 375px;
@@ -522,7 +523,8 @@ body {
   gap: 12px;
   border: none;
   outline: none;
-  background-image: url(./Images/Mobile-version/contact-1.png), url(./Images/Mobile-version/contact-2.png);
+  background-image: url(./Images/Mobile-version/contact-1.png),
+    url(./Images/Mobile-version/contact-2.png);
   background-position: right top, left top;
   background-repeat: no-repeat, no-repeat;
   background-size: 203px, 375px;
@@ -724,7 +726,8 @@ body {
   .headline {
     display: flex;
     justify-content: center;
-    background-image: url(./Images/Desktop-version/desktop-1.png), url(./Images/Desktop-version/desktop-2.png);
+    background-image: url(./Images/Desktop-version/desktop-1.png),
+      url(./Images/Desktop-version/desktop-2.png);
     background-repeat: no-repeat;
     background-size: 100%, cover;
     border-bottom-left-radius: 80px;
@@ -774,12 +777,15 @@ body {
     margin-left: 20%;
   }
 
+  .headline .social-media-icons {
+    margin-left: 20%;
+  }
+
   .social-media-icons ul {
     display: flex;
     list-style-type: none;
     width: 160.17px;
     height: 20px;
-    margin-left: 246px;
     margin-top: 10px;
   }
 
@@ -871,10 +877,17 @@ body {
     margin-top: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 10px;
   }
 
-  .first {
+  .about-myself .second {
+    width: 620px;
+    padding-left: 20px;
+    margin-right: 5%;
+  }
+
+  .about-myself .first {
+    padding-right: 20px;
     margin-left: 20%;
   }
 
@@ -883,19 +896,64 @@ body {
     height: 102px;
   }
 
-  ul .social-icon {
-    margin-right: 100%;
+  .first .social-icon {
+    margin-left: 3%;
   }
 
-  .lname {
+  .about-myself .second .lang-section {
+    width: 684px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-myself .language {
+    width: 684px;
+    height: 216px;
+  }
+
+  .about-myself .second .languages {
     display: flex;
     flex-direction: row;
-    align-items: center;
+   padding: 0;
+    margin: 0;
+    height: 144px;
+  }
+
+  .languages .lname {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    width: 122px;
+    height: 120px;
+  }
+
+  .languages .lname img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .languages .lname h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .about-myself .second .last {
+    width: 684px;
+  }
+
+  .about-myself .second .skill {
+    width: 684px;
   }
 
   .contact {
-    background-image: url(./Images/Desktop-version/backgroung-3.png), url(./Images/Desktop-version/background-4.png);
-    background-size: 1440px;
+    background-image: url(./Images/Desktop-version/backgroung-3.png),
+      url(./Images/Desktop-version/background-4.png);
+    background-size: 1520px;
     background-repeat: no-repeat;
     background-color: #fff;
     height: 800px;
@@ -926,7 +984,7 @@ body {
     width: 447px;
     left: 20px;
     position: relative;
-    bottom: 28%;
+    bottom: 24%;
   }
 
   #name,
