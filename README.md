@@ -11,6 +11,8 @@
 - No Frameworks
 - Visual Studio
 
+## Deployed page
+ [Live Demo: Faranosh's portfolio](https://faranoshamini.github.io/Faranosh_Portfolio/)
 
 ## Getting Started
 
