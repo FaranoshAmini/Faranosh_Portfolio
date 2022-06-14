@@ -10,7 +10,6 @@
 html,
 body {
   background-color: #e5e5e5;
-  ;
   overflow-x: hidden;
 }
 
@@ -260,14 +259,19 @@ section {
   margin: 0;
 }
 
-.mainmenu > li:hover {
+.mainmenu- > li {
   margin: 10px;
   list-style: none;
-  margin-right: 3px;
 }
 
 .card-work ul li {
   display: inline;
+}
+
+.mainmenu > li:hover {
+  margin: 10px;
+  list-style: none;
+  margin-right: 3px;
 }
 
 .card-work .main-buttons {
@@ -704,11 +708,6 @@ header #nav .logo {
   order: 3;
   flex-grow: 0;
   padding: 10px 12px;
-}
-
-.mainmenu- > li {
-  margin: 10px;
-  list-style: none;
 }
 
 .mainmenu i {
