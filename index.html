@@ -8,20 +8,19 @@
     <title>Faranosh Portfolio</title>
   </head>
   <body>
-    <header class="toolbar">
-      <div class="logo">
-        <a id="LOGO" href="#"><b>My Logo</b></a>
-      </div>
-      <nav class="icon">
-        <img src="Images/Mobile-version/Union.png" alt="Menu icon" />
-      </nav>
-      <div class="menu">
-        <ul class="menu-bar">
-          <li class="MB"><a href="#">Portfolio</a></li>
-          <li class="MB"><a href="#">About</a></li>
-          <li class="MB"><a href="#">Contact</a></li>
+    <div class="home-page">
+    <header>
+      <nav id="nav">
+        <a class="logo" href="#"><img src="Images/logo.png" alt="my logo"/></a> 
+  
+        <nav class="hamburger"><img src="Images/Mobile-version/Union.png" alt="Menu"></nav>
+        <ul class="mainmenu">
+          <li><a href="#"></a></li>
+           <li><a href="#work">Portfolio</a></li>
+           <li><a href="#about_me">About</a></li>
+           <li><a href="#contact"> Contact </a></li>
         </ul>
-      </div>
+      </nav>
     </header>
     <section class="headline">
       <h1>I'm Faranosh <br />Glad to see you!</h1>
@@ -77,6 +76,7 @@
         </ul>
       </div>
     </section>
+  </div>
     <section id="work">
       <div class="card-work" id="card-one">
         <div class="left">
@@ -240,7 +240,7 @@
         </div>
       </div>
     </section>
-    <div class="last">
+    <div class="last" id="about_me">
       <section class="about-myself">
         <div class="first">
           <h2 class="intro">About <br />Myself</h2>
@@ -332,7 +332,7 @@
         </ul>
       </section>
     </div>
-    <footer class="contact">
+    <footer class="contact" id="contact">
       <h1 class="contact-title">Contact me</h1>
       <p class="contact-description">
         If you have an application you are interested in developing, a feature
@@ -384,5 +384,6 @@
         alt="Shape icon"
       />
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
