@@ -260,6 +260,12 @@ section {
   margin: 0;
 }
 
+.mainmenu > li:hover {
+  margin: 10px;
+  list-style: none;
+  margin-right: 3px;
+}
+
 .card-work ul li {
   display: inline;
 }
@@ -700,7 +706,7 @@ header #nav .logo {
   padding: 10px 12px;
 }
 
-.mainmenu>li {
+.mainmenu- > li {
   margin: 10px;
   list-style: none;
 }
@@ -708,12 +714,6 @@ header #nav .logo {
 .mainmenu i {
   color: #505f79;
   font-size: 21px;
-}
-
-.mainmenu>li:hover {
-  margin: 10px;
-  list-style: none;
-  margin-right: 3px;
 }
 
 #nav .mainmenu li a {
