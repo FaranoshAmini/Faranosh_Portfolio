@@ -70,7 +70,7 @@ body {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  list-style: 20px;
+  list-style: none;
   color: #172b4d;
   display: flex;
   align-items: center;
@@ -742,7 +742,7 @@ body {
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
-    list-style: 20px;
+    list-style: none;
     color: #172b4d;
     display: flex;
     flex: none;
