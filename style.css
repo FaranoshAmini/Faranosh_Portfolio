@@ -272,16 +272,6 @@ section {
   background-color: #fff;
 }
 
-.pop-header-div {
-  justify-content: flex-end;
-  float: right;
-  margin-top: -4%;
-}
-
-.pop-header-h3 {
-  margin-left: 48px;
-}
-
 .mobile-part-class {
   display: flex;
   flex-direction: column;
@@ -832,6 +822,42 @@ header #nav .logo {
 }
 
 @media only screen and (max-width: 768px) {
+  .inf {
+    display: flex;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 0;
+    color: #344563;
+}
+  .pop-header {
+    display: flex;
+    width: 100%;
+}
+  .pop-window {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 100vh;
+    width: 95%;
+    margin-left: 2.5%;
+    padding: 3%;
+}
+  .pop-header-h3 {
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 32px;
+    color: #172b4d;
+    font-family: Poppins, sans-serif;
+    line-height: 44px;
+}
+.pop-header-div {
+  float: right;
+  margin-left: 21%;
+}
   .mainmenu {
     display: none;
     text-decoration: none;
@@ -862,6 +888,16 @@ header #nav .logo {
 }
 
 @media only screen and (min-width: 768px) {
+  .pop-header-div {
+    justify-content: flex-end;
+    float: right;
+    margin-top: -4%;
+  }
+
+  .pop-header-h3 {
+    font-weight: 700;
+    font-size: 40px;
+}
   .pop-header-description {
     width: 65%;
     margin-right: 4%;

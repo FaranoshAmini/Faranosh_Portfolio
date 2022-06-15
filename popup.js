@@ -1,6 +1,6 @@
 const projects = {
   p15: {
-    name: 'Tonic',
+    name: 'My project 1',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
     img: './Images/Desktop-version/nature.png',
@@ -10,7 +10,7 @@ const projects = {
     generalInf: ['Microverse- Student', 'Web Developer', 2021],
   },
   p16: {
-    name: 'Shiz Pet Store',
+    name: 'My project 2',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
     img: './Images/Desktop-version/nature.png',
@@ -20,7 +20,7 @@ const projects = {
     generalInf: ['Microverse- Student', 'Web Developer', 2021],
   },
   p17: {
-    name: 'Develop a movie recommendation engine',
+    name: 'My project 3',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
     img: './Images/Desktop-version/nature.png',
@@ -111,21 +111,18 @@ const bottom = document.createElement('div');
 const mobilePart = document.createElement('div');
 title.classList.add('pop-header-h3');
 header.appendChild(title);
-title.style.marginLeft = '32px';
 header.appendChild(imgWrapper);
 header.classList.add('pop-header');
 btnSource.innerHTML = '<img src="Images/gitbutton.png" alt="Live version"> ';
 btnLive.innerHTML = '<img src="Images/livebutton.png" alt="Live version"> ';
 externalButton.appendChild(btnLive);
 externalButton.appendChild(btnSource);
-externalButton.style.marginBottom = '32px';
 bottom.appendChild(skills);
 bottom.appendChild(externalButton);
 mobilePart.appendChild(description);
 mobilePart.appendChild(bottom);
 mobilePart.classList.add('mobile-part-class');
 mobilePart.querySelector('p').classList.add('pop-header-description');
-infos.style.marginLeft = '32px';
 image.classList.add('project_image');
 image.classList.add('pop-header-img');
 wrapper.appendChild(header);
