@@ -294,6 +294,7 @@ section {
   flex: none;
   order: 1;
   flex-grow: 0;
+  padding-bottom: 10px;
 }
 
 .project_description {
@@ -359,6 +360,7 @@ section {
 
 .general {
   width: 47%;
+  gap: 10px;
 }
 
 .card-work ul li {
@@ -763,7 +765,7 @@ section {
 
 #nav .logo {
   text-decoration: none;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 30px;
   color: #6070ff;
@@ -777,7 +779,7 @@ section {
 }
 
 header #nav .logo {
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
@@ -824,7 +826,7 @@ header #nav .logo {
 @media only screen and (max-width: 768px) {
   .inf {
     display: flex;
-    font-family: Poppins, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -854,7 +856,7 @@ header #nav .logo {
     font-weight: bold;
     font-size: 32px;
     color: #172b4d;
-    font-family: Poppins, sans-serif;
+    font-family: "Poppins", sans-serif;
     line-height: 44px;
   }
 
@@ -952,7 +954,7 @@ header #nav .logo {
 
   #nav .logo {
     text-decoration: none;
-    font-family: Poppins, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     font-size: 30px;
     color: #6070ff;
@@ -966,7 +968,7 @@ header #nav .logo {
   }
 
   header #nav .logo {
-    font-family: Poppins, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     font-size: 18px;
     line-height: 20px;
@@ -986,6 +988,12 @@ header #nav .logo {
     align-items: center;
     padding-right: 30px;
     padding-bottom: 39px;
+  }
+
+  nav .mainmenu {
+    list-style-type: none;
+    padding: 20px;
+    gap: 30px;
   }
 
   .menu-bar {
@@ -1250,7 +1258,7 @@ header #nav .logo {
 
   .contact .contact-title {
     width: 801px;
-    margin-left: 32%;
+    margin-left: 39%;
     position: relative;
     top: 20%;
     font-size: 40px;
@@ -1281,12 +1289,12 @@ header #nav .logo {
 
   .get-touch {
     text-align: center;
-    margin-left: 35%;
+    margin-left: 47%;
   }
 
   .Shape {
     position: relative;
     top: -15%;
-    margin-left: 35%;
+    margin-left: 48%;
   }
 }
