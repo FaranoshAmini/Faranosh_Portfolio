@@ -831,11 +831,13 @@ header #nav .logo {
     margin-top: 5px;
     margin-left: 0;
     color: #344563;
-}
+  }
+
   .pop-header {
     display: flex;
     width: 100%;
-}
+  }
+
   .pop-window {
     display: flex;
     flex-direction: column;
@@ -844,7 +846,8 @@ header #nav .logo {
     width: 95%;
     margin-left: 2.5%;
     padding: 3%;
-}
+  }
+
   .pop-header-h3 {
     margin-top: 12px;
     margin-bottom: 0;
@@ -853,11 +856,13 @@ header #nav .logo {
     color: #172b4d;
     font-family: Poppins, sans-serif;
     line-height: 44px;
-}
-.pop-header-div {
-  float: right;
-  margin-left: 21%;
-}
+  }
+
+  .pop-header-div {
+    float: right;
+    margin-left: 21%;
+  }
+
   .mainmenu {
     display: none;
     text-decoration: none;
@@ -897,7 +902,8 @@ header #nav .logo {
   .pop-header-h3 {
     font-weight: 700;
     font-size: 40px;
-}
+  }
+
   .pop-header-description {
     width: 65%;
     margin-right: 4%;
