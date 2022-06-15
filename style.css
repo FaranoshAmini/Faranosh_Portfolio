@@ -9,7 +9,13 @@
 
 html,
 body {
+  background-color: #e5e5e5;
   overflow-x: hidden;
+}
+
+.project:nth-child(even) {
+  flex-direction: row-reverse;
+  padding: 20px;
 }
 
 body {
@@ -45,13 +51,17 @@ body {
   text-decoration: none;
 }
 
+section {
+  width: 100%;
+  background-color: white;
+}
+
 .headline {
   display: flex;
   justify-content: center;
   background-image: url(./Images/Mobile-version/background-1.png), url(./Images/Mobile-version/background-2.png);
   background-repeat: no-repeat;
-  background-size: 100%, cover;
-  width: 375px;
+  background-size: cover;
   height: 718px;
   flex-direction: column;
   align-items: flex-start;
@@ -63,7 +73,6 @@ body {
 }
 
 .headline h1 {
-  width: 327px;
   height: 150px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -80,7 +89,6 @@ body {
 }
 
 .headline p {
-  width: 327px;
   height: 100px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -128,22 +136,16 @@ body {
 
 #work {
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto auto auto;
-  padding: 114px 24px;
-  gap: 90px;
   background: #e5e5e5;
-  background-color: white;
   padding-left: 17px;
 }
 
 .card-work {
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 16px;
   gap: 12px;
-  width: 327px;
+  width: 100%;
   height: 552px;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -155,8 +157,7 @@ body {
 }
 
 .snapshot-portfolio {
-  height: 220px;
-  width: 300px;
+  width: 100%;
   left: 16px;
   top: 16px;
   border-radius: 8px;
@@ -258,8 +259,126 @@ body {
   margin: 0;
 }
 
+.mainmenu- > li {
+  margin: 10px;
+  list-style: none;
+}
+
+.pop-window {
+  height: 100vh;
+  width: 80%;
+  margin-left: 10%;
+  padding: 2%;
+  background-color: #fff;
+}
+
+.pop-header-div {
+  justify-content: flex-end;
+  float: right;
+  margin-top: -4%;
+}
+
+.pop-header-h3 {
+  margin-left: 48px;
+}
+
+.mobile-part-class {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.pop-header-img {
+  width: 96%;
+  height: 586px;
+}
+
+.pop-header-description {
+  margin-right: 4%;
+}
+
+#general_inf {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.project_description {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 8px;
+  text-align: justify;
+  margin-bottom: 8px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: flex-start;
+  padding-left: 0;
+  overflow: auto;
+  margin-bottom: 30px;
+}
+
+.skills li {
+  margin: 5px;
+  background-color: #ebebfe;
+  border-radius: 25%;
+  margin-right: 10px;
+  padding: 5px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  list-style: none;
+  text-align: center;
+}
+
+.external_link {
+  border: 1px solid #396df2;
+  border-radius: 5px;
+  width: 124px;
+  height: 48px;
+  top: calc(50% - 48px / 2);
+  margin-top: 16px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.external_link a {
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #396df2;
+  text-align: center;
+}
+
+.general {
+  width: 47%;
+}
+
 .card-work ul li {
   display: inline;
+}
+
+.mainmenu > li:hover {
+  margin: 10px;
+  list-style: none;
+  margin-right: 3px;
 }
 
 .card-work .main-buttons {
@@ -348,8 +467,7 @@ body {
 .about-myself {
   background-color: white;
   border-top-right-radius: 80px;
-  width: 375px;
-  margin: -20px;
+  width: 100%;
   padding: 114px 34px;
 }
 
@@ -412,9 +530,6 @@ body {
 .second {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 329px;
   margin: 0;
   padding: 0;
   height: 464px;
@@ -425,11 +540,11 @@ body {
   flex-direction: column;
   height: 320px;
   align-items: flex-start;
-  width: 327px;
+  width: 100%;
 }
 
 .second .language .lang-section {
-  width: 327px;
+  width: 100%;
   height: 72px;
   display: flex;
   justify-content: space-between;
@@ -452,17 +567,15 @@ body {
 }
 
 .second .languages {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 12px;
   gap: 12px;
-  width: 327px;
   height: 248px;
 }
 
 .second .lname {
-  width: 303px;
   height: 66.72px;
   background: #f7f7f9;
   border-radius: 8px;
@@ -492,7 +605,7 @@ body {
 }
 
 .second .last {
-  width: 327px;
+  width: 100%;
   height: 72px;
   display: flex;
   justify-content: space-between;
@@ -500,10 +613,12 @@ body {
   padding-left: 13px;
   padding-right: 20px;
   border-bottom: 1px solid #dfe1e6;
+  margin-top: 10px;
 }
 
 .second .skill {
-  width: 327px;
+  margin-top: 10px;
+  width: 100%;
   height: 72px;
   display: flex;
   justify-content: space-between;
@@ -514,18 +629,16 @@ body {
 }
 
 .contact {
-  width: 375px;
   height: 779px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 12px;
   border: none;
   outline: none;
   background-image: url(./Images/Mobile-version/contact-1.png), url(./Images/Mobile-version/contact-2.png);
   background-position: right top, left top;
   background-repeat: no-repeat, no-repeat;
-  background-size: 203px, 375px;
+  background-size: 100%;
 }
 
 .contact-title {
@@ -535,9 +648,7 @@ body {
   line-height: 52px;
   color: #fff;
   display: flex;
-  align-items: center;
   position: absolute;
-  width: 801px;
   height: 56px;
   left: 60px;
   top: 4654px;
@@ -545,7 +656,6 @@ body {
 
 .contact-description {
   position: absolute;
-  width: 327px;
   height: 102px;
   left: 24px;
   top: 4732px;
@@ -604,6 +714,7 @@ body {
 }
 
 .get-touch {
+  margin-left: 35%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -621,7 +732,6 @@ body {
   color: #6070ff;
   gap: 12px;
   padding: 4px 14px;
-  margin-left: 20px;
   border: 1px solid #fff;
 }
 
@@ -644,47 +754,183 @@ body {
 .Shape {
   position: relative;
   top: 2%;
+  width: 132px;
+  margin-left: 35%;
+}
+
+#nav {
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+#nav nav:hover {
+  cursor: pointer;
+}
+
+#nav .logo {
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #6070ff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 24px;
+  margin-top: 20px;
+  width: 25%;
+  margin-right: 60%;
+}
+
+header #nav .logo {
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+#nav .logo:hover {
+  text-decoration: underline;
+  text-decoration-color: #23a3fa;
+}
+
+.hamburger {
+  width: 45px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.mainmenu {
+  height: 20px;
+  margin-right: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  padding: 10px 12px;
+}
+
+.mainmenu i {
+  color: #505f79;
+  font-size: 21px;
+}
+
+#nav .mainmenu li a {
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+}
+
+@media only screen and (max-width: 768px) {
+  .mainmenu {
+    display: none;
+    text-decoration: none;
+  }
+  .project_image {
+    width: 97%;
+    height: auto;
+    padding: 5%;
+  }
+
+  .general {
+    width: 100%;
+    padding: 5%;
+  }
+
+  .project {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 97%;
+    margin-right: 0;
+    grid-column-gap: 30px;
+    margin-bottom: 100px;
+    background-color: #fff;
+    border-radius: 2.5%;
+  }
+  
 }
 
 @media only screen and (min-width: 768px) {
+  .pop-header-description {
+    width: 65%;
+    margin-right: 4%;
+    font-weight: 400;
+    font-size: 16px;
+}
+.mobile-part-class {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+  .project {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 25px 13px 25px 25px;
+    margin-left: 10%;
+    margin-right: 0;
+    grid-column-gap: 30px;
+    margin-bottom: 100px;
+    background-color: #fff;
+    border-radius: 2.5%;
+  }
+
+  .project_image {
+    width: 47%;
+    height: 97%;
+  }
+
+  .pop-header-img {
+    width: 96%;
+    height: 586px;
+}
+
   body {
     background: #e5e5e5;
     font-family: "Poppins", sans-serif;
   }
 
-  .toolbar {
-    display: flex;
-    margin-top: -10px;
-    justify-content: space-between;
-    width: 100%;
-    padding-bottom: 8px;
-    background: white;
-    margin-left: 0;
-    padding-right: 5%;
-  }
-
-  .icon {
+  #nav nav {
     display: none;
   }
 
-  .logo {
-    width: 190px;
-    height: 20px;
+  #nav .logo {
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #6070ff;
     display: flex;
     align-items: center;
     text-align: center;
-    margin-left: 7%;
+    margin-left: 24px;
+    margin-top: 20px;
+    width: 25%;
+    margin-right: 60%;
   }
 
-  .toolbar #LOGO {
-    color: #6070ff;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 700;
+  header #nav .logo {
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
     font-size: 18px;
     line-height: 20px;
-    text-decoration: none;
-    padding-top: 40px;
+  }
+
+  #nav .logo:hover {
+    text-decoration: underline;
+    text-decoration-color: #23a3fa;
   }
 
   .menu {
@@ -712,6 +958,7 @@ body {
   }
 
   .menu ul li a {
+    list-style: none;
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -724,9 +971,8 @@ body {
   .headline {
     display: flex;
     justify-content: center;
-    background-image: url(./Images/Desktop-version/desktop-1.png), url(./Images/Desktop-version/desktop-2.png);
     background-repeat: no-repeat;
-    background-size: 100%, cover;
+    background-size: cover;
     border-bottom-left-radius: 80px;
     height: 600px;
     width: 100%;
@@ -790,7 +1036,6 @@ body {
     display: grid;
     padding: 114px 24px;
     background: #e5e5e5;
-    padding-left: 15%;
     padding-right: 8%;
   }
 
@@ -968,7 +1213,8 @@ body {
   }
 
   .contact-description {
-    width: 569px;
+    width: 100%;
+    text-align: center;
     position: relative;
     top: 20%;
     margin-left: 1%;
@@ -977,7 +1223,7 @@ body {
   }
 
   .contact-form {
-    width: 447px;
+    width: 100%;
     left: 20px;
     position: relative;
     bottom: 24%;
@@ -997,6 +1243,6 @@ body {
   .Shape {
     position: relative;
     top: -15%;
-    margin-left: 3%;
+    margin-left: 35%;
   }
 }
