@@ -858,22 +858,23 @@ header #nav .logo {
     margin-bottom: 100px;
     background-color: #fff;
     border-radius: 2.5%;
-  } 
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
   .pop-header-description {
-  width: 65%;
-  margin-right: 4%;
-  font-weight: 400;
-  font-size: 16px;
-}
+    width: 65%;
+    margin-right: 4%;
+    font-weight: 400;
+    font-size: 16px;
+  }
 
-.mobile-part-class {
-  display: flex;
-  flex-direction: row;
-  margin-top: 20px;
-}
+  .mobile-part-class {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
 
   .project {
     margin-top: 5%;
@@ -897,7 +898,7 @@ header #nav .logo {
   .pop-header-img {
     width: 96%;
     height: 586px;
-}
+  }
 
   body {
     background: #e5e5e5;

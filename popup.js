@@ -1,7 +1,7 @@
 const projects = {
-   p15: {
+  p15: {
     name: 'Tonic',
-     description:
+    description:
         'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
     img: './Images/Desktop-version/nature.png',
     technolgies: ['React', 'Redux', 'HTML', 'CSS', 'JavaScript'],
@@ -71,7 +71,7 @@ function createMobileProjectCard(key) {
   description.classList.add('project_description');
   projects[key].technolgies.forEach((element) => {
     techns.innerHTML = `${techns.innerHTML}<li>${element} </li>`;
-});
+  });
   techns.classList.add('skills');
   btnLoad.innerHTML = 'See Project';
   btnLoad.href = '#';
@@ -126,8 +126,7 @@ mobilePart.appendChild(bottom);
 mobilePart.classList.add('mobile-part-class');
 mobilePart.querySelector('p').classList.add('pop-header-description');
 infos.style.marginLeft = '32px';
-image.classList.add('project_image');
-image.classList.add('pop-header-img'); 
+image.classList.add('project_image');image.classList.add('pop-header-img'); 
 wrapper.appendChild(header);
 wrapper.appendChild(infos);
 wrapper.appendChild(image);
@@ -140,12 +139,12 @@ wrapper.style.visibility = 'hidden';
 home.appendChild(wrapper);
 popUpBtn.forEach((btn) => {
   btn.addEventListener('click', () => {
-const parentId = btn.parentElement.parentElement.parentElement.key;
-title.innerHTML = projects[parentId].name;
-infos.innerHTML = `${projects[parentId].generalInf[0]}  &bullet;  ${projects[parentId].generalInf[1]}  &bullet;  ${projects[parentId].generalInf[2]}`;
-image.src = projects[parentId].img;
-description.innerHTML = projects[parentId].description;
-skills.innerHTML = '';
+    const parentId = btn.parentElement.parentElement.parentElement.key;
+    title.innerHTML = projects[parentId].name;
+    infos.innerHTML = `${projects[parentId].generalInf[0]}  &bullet;  ${projects[parentId].generalInf[1]}  &bullet;  ${projects[parentId].generalInf[2]}`;
+    image.src = projects[parentId].img;
+    description.innerHTML = projects[parentId].description;
+    skills.innerHTML = '';
     projects[parentId].technolgies.forEach((element) => {
       skills.innerHTML = `${skills.innerHTML}<li>${element} </li>`;
     });
@@ -169,5 +168,5 @@ cancel.addEventListener('click', () => {
   about.style.backgroundColor = '#fff';
   head.style.backgroundColor = '#fff';
   wwork.style.backgroundColor = '#E5E5E5';
-wrapper.style.position = 'hidden';
+  wrapper.style.position = 'hidden';
 });
