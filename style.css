@@ -904,24 +904,23 @@ header #nav .logo {
   }
 
   .pop-header-h3 {
-    color: #091E42;
+    color: #091e42;
     font-weight: 700;
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
     line-height: 52px;
-    letter-spacing: 0em;
     text-align: left;
     width: 1056px;
     height: 40px;
   }
 
   .inf {
-   color:#344563;
-   font-size:15px;
-   font-weight: 500;
-   margin-top: 1%;
-   margin-bottom: 1%;
-   gap: 40px;
+    color: #344563;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    gap: 40px;
   }
 
   .pop-header-description {
@@ -959,7 +958,6 @@ header #nav .logo {
   .pop-header-img {
     width: 96%;
     height: 586px;
-
   }
 
   body {
@@ -1285,7 +1283,6 @@ header #nav .logo {
   .contact-description {
     width: 100%;
     text-align: center;
-    margin-top: 12%;
     margin-left: 1%;
     margin-top: 0;
     font-size: 20px;
