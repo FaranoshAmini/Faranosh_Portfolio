@@ -82,7 +82,7 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
-
+// Preserve Data in Local Storage //
 const userName = form.elements.name;
 const userEmail = form.elements.email;
 const userMessage = form.elements.message;
