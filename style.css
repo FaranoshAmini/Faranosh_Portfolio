@@ -897,6 +897,8 @@ header #nav .logo {
 
   span {
     margin-left: 5%;
+    color: red;
+    font-size: 22px;
   }
 }
 
@@ -1313,6 +1315,8 @@ header #nav .logo {
   }
 
   span {
-    margin-left: 37%;
+    margin-left: 33%;
+    color: red;
+    font-size: 22px;
   }
 }
