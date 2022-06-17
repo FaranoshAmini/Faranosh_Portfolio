@@ -1287,9 +1287,9 @@ header #nav .logo {
   }
 
   .contact-description {
-    width: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
     text-align: center;
-    margin-left: 1%;
     margin-top: 0;
     font-size: 20px;
   }
