@@ -13,6 +13,11 @@ body {
   overflow-x: hidden;
 }
 
+.project:nth-child(even) {
+  flex-direction: row-reverse;
+  padding: 20px;
+}
+
 body {
   position: relative;
 }
@@ -56,7 +61,7 @@ section {
   justify-content: center;
   background-image: url(./Images/Mobile-version/background-1.png), url(./Images/Mobile-version/background-2.png);
   background-repeat: no-repeat;
-  background-size: 100%, cover;
+  background-size: cover;
   height: 718px;
   flex-direction: column;
   align-items: flex-start;
@@ -131,12 +136,7 @@ section {
 
 #work {
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto auto auto;
-  padding: 114px 24px;
-  gap: 90px;
   background: #e5e5e5;
-  background-color: white;
   padding-left: 17px;
 }
 
@@ -262,6 +262,111 @@ section {
 .mainmenu- > li {
   margin: 10px;
   list-style: none;
+}
+
+.pop-window {
+  height: 100vh;
+  width: 80%;
+  margin-left: 10%;
+  padding: 2%;
+  background-color: #fff;
+}
+
+.mobile-part-class {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.pop-header-img {
+  width: 96%;
+  height: 586px;
+}
+
+.pop-header-description {
+  margin-right: 4%;
+}
+
+#general_inf {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+}
+
+.project_description {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 8px;
+  text-align: justify;
+  margin-bottom: 8px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: flex-start;
+  padding-left: 0;
+  overflow: auto;
+  margin-bottom: 30px;
+}
+
+.skills li {
+  margin: 5px;
+  background-color: #ebebfe;
+  border-radius: 25%;
+  margin-right: 10px;
+  padding: 5px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  list-style: none;
+  text-align: center;
+}
+
+.external_link {
+  border: 1px solid #396df2;
+  border-radius: 5px;
+  width: 124px;
+  height: 48px;
+  top: calc(50% - 48px / 2);
+  margin-top: 16px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.external_link a {
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #396df2;
+  text-align: center;
+}
+
+.general {
+  width: 47%;
+  gap: 10px;
 }
 
 .card-work ul li {
@@ -541,17 +646,14 @@ section {
   line-height: 52px;
   color: #fff;
   display: flex;
-  position: absolute;
   height: 56px;
-  left: 60px;
-  top: 4654px;
+  margin-top: 20%;
+  margin-left: 32%;
 }
 
 .contact-description {
-  position: absolute;
+  margin-top: 2%;
   height: 102px;
-  left: 24px;
-  top: 4732px;
   font-family: "Poppins", Arial, sans-serif;
   text-align: center;
   font-style: normal;
@@ -567,7 +669,7 @@ section {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin-top: 340px;
+  margin-top: 0;
   outline: none;
   border: none;
 }
@@ -607,7 +709,7 @@ section {
 }
 
 .get-touch {
-  margin-left: 35%;
+  margin-left: 40%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -645,10 +747,9 @@ section {
 }
 
 .Shape {
-  position: relative;
-  top: 2%;
   width: 132px;
-  margin-left: 35%;
+  margin-left: 39%;
+  margin-top: 6%;
 }
 
 #nav {
@@ -666,7 +767,7 @@ section {
 
 #nav .logo {
   text-decoration: none;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 30px;
   color: #6070ff;
@@ -680,7 +781,7 @@ section {
 }
 
 header #nav .logo {
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
@@ -725,13 +826,140 @@ header #nav .logo {
 }
 
 @media only screen and (max-width: 768px) {
+  .inf {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 0;
+    color: #344563;
+  }
+
+  .pop-header {
+    display: flex;
+    width: 100%;
+  }
+
+  .pop-window {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 100vh;
+    width: 95%;
+    margin-left: 2.5%;
+    padding: 3%;
+  }
+
+  .pop-header-h3 {
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 32px;
+    color: #172b4d;
+    font-family: "Poppins", sans-serif;
+    line-height: 44px;
+  }
+
+  .pop-header-div {
+    float: right;
+    margin-left: 70%;
+  }
+
   .mainmenu {
     display: none;
     text-decoration: none;
   }
+
+  .project_image {
+    width: 97%;
+    height: auto;
+    padding: 5%;
+  }
+
+  .general {
+    width: 100%;
+    padding: 5%;
+  }
+
+  .project {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 97%;
+    margin-right: 0;
+    grid-column-gap: 30px;
+    margin-bottom: 100px;
+    background-color: #fff;
+    border-radius: 2.5%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
+  .pop-header-div {
+    justify-content: flex-end;
+    float: right;
+    margin-top: -4%;
+  }
+
+  .pop-header-h3 {
+    color: #091e42;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 52px;
+    text-align: left;
+    width: 1056px;
+    height: 40px;
+  }
+
+  .inf {
+    color: #344563;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    gap: 40px;
+  }
+
+  .pop-header-description {
+    width: 65%;
+    margin-right: 4%;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .mobile-part-class {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .project {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 25px 13px 25px 25px;
+    margin-left: 10%;
+    margin-right: 0;
+    grid-column-gap: 30px;
+    margin-bottom: 100px;
+    background-color: #fff;
+    border-radius: 2.5%;
+  }
+
+  .project_image {
+    width: 47%;
+    height: 97%;
+  }
+
+  .pop-header-img {
+    width: 96%;
+    height: 586px;
+  }
+
   body {
     background: #e5e5e5;
     font-family: "Poppins", sans-serif;
@@ -743,7 +971,7 @@ header #nav .logo {
 
   #nav .logo {
     text-decoration: none;
-    font-family: Poppins, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     font-size: 30px;
     color: #6070ff;
@@ -757,7 +985,7 @@ header #nav .logo {
   }
 
   header #nav .logo {
-    font-family: Poppins, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     font-size: 18px;
     line-height: 20px;
@@ -779,6 +1007,12 @@ header #nav .logo {
     padding-bottom: 39px;
   }
 
+  nav .mainmenu {
+    list-style-type: none;
+    padding: 20px;
+    gap: 30px;
+  }
+
   .menu-bar {
     width: 30%;
     column-gap: 30px;
@@ -793,6 +1027,7 @@ header #nav .logo {
   }
 
   .menu ul li a {
+    list-style: none;
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -805,9 +1040,8 @@ header #nav .logo {
   .headline {
     display: flex;
     justify-content: center;
-    background-image: url(./Images/Desktop-version/desktop-1.png), url(./Images/Desktop-version/desktop-2.png);
     background-repeat: no-repeat;
-    background-size: 100%, cover;
+    background-size: cover;
     border-bottom-left-radius: 80px;
     height: 600px;
     width: 100%;
@@ -871,7 +1105,6 @@ header #nav .logo {
     display: grid;
     padding: 114px 24px;
     background: #e5e5e5;
-    padding-left: 15%;
     padding-right: 8%;
   }
 
@@ -1042,17 +1275,14 @@ header #nav .logo {
 
   .contact .contact-title {
     width: 801px;
-    margin-left: 32%;
-    position: relative;
-    top: 20%;
+    margin-top: 10%;
+    margin-left: 40%;
     font-size: 40px;
   }
 
   .contact-description {
     width: 100%;
     text-align: center;
-    position: relative;
-    top: 20%;
     margin-left: 1%;
     margin-top: 0;
     font-size: 20px;
@@ -1061,8 +1291,6 @@ header #nav .logo {
   .contact-form {
     width: 100%;
     left: 20px;
-    position: relative;
-    bottom: 24%;
   }
 
   #name,
@@ -1073,12 +1301,10 @@ header #nav .logo {
 
   .get-touch {
     text-align: center;
-    margin-left: 35%;
+    margin-left: 47%;
   }
 
   .Shape {
-    position: relative;
-    top: -15%;
-    margin-left: 35%;
+    margin-left: 47%;
   }
 }
