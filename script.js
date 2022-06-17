@@ -94,6 +94,7 @@ function populateStorage() {
   };
   localStorage.setItem('userInput', JSON.stringify(userInput));
 }
+
 function setForm() {
   const storedInput = JSON.parse(localStorage.getItem('userInput'));
   const currentUserName = storedInput.name;
@@ -103,6 +104,7 @@ function setForm() {
   form.elements.email.value = currentUserEmail;
   form.elements.message.value = currentMessage;
 }
+
 if (!localStorage.getItem('userInput')) {
   populateStorage();
 } else {
