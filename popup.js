@@ -1,33 +1,33 @@
 const projects = {
   p15: {
-    name: 'My project 1',
+    name: 'Tonic',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
     img: './Images/Desktop-version/nature.png',
     technolgies: ['React', 'Redux', 'HTML', 'CSS', 'JavaScript'],
     linkToLiveVersion: '#',
     linkToSource: 'https://github.com/FaranoshAmini',
-    generalInf: ['Microverse- Student', 'Web Developer', 2021],
+    generalInf: ['CANOPY', 'Back End Dev', 2015],
   },
   p16: {
-    name: 'My project 2',
+    name: 'Tonic',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
     img: './Images/Desktop-version/nature.png',
     technolgies: ['React', 'Redux', 'HTML', 'CSS', 'JavaScript'],
     linkToLiveVersion: '#',
     linkToSource: 'https://github.com/FaranoshAmini',
-    generalInf: ['Microverse- Student', 'Web Developer', 2021],
+    generalInf: ['CANOPY', 'Back End Dev', 2015],
   },
   p17: {
-    name: 'My project 3',
+    name: 'Tonic',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
     img: './Images/Desktop-version/nature.png',
     technolgies: ['React', 'Redux', 'HTML', 'CSS', 'JavaScript'],
     linkToLiveVersion: '#',
     linkToSource: 'https://github.com/FaranoshAmini',
-    generalInf: ['Microverse- Student', 'Web Developer', 2021],
+    generalInf: ['CANOPY', 'Back End Dev', 2015],
   },
 };
 const myWork = document.querySelector('#work');
