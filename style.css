@@ -295,6 +295,12 @@ section {
   order: 1;
   flex-grow: 0;
   padding-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
 }
 
 .project_description {
@@ -640,17 +646,14 @@ section {
   line-height: 52px;
   color: #fff;
   display: flex;
-  position: absolute;
   height: 56px;
-  left: 60px;
-  top: 4654px;
+  margin-top: 20%;
+  margin-left: 32%;
 }
 
 .contact-description {
-  position: absolute;
+  margin-top: 2%;
   height: 102px;
-  left: 24px;
-  top: 4732px;
   font-family: "Poppins", Arial, sans-serif;
   text-align: center;
   font-style: normal;
@@ -666,7 +669,7 @@ section {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin-top: 340px;
+  margin-top: 0;
   outline: none;
   border: none;
 }
@@ -706,7 +709,7 @@ section {
 }
 
 .get-touch {
-  margin-left: 35%;
+  margin-left: 40%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -744,10 +747,9 @@ section {
 }
 
 .Shape {
-  position: relative;
-  top: 2%;
   width: 132px;
-  margin-left: 35%;
+  margin-left: 39%;
+  margin-top: 6%;
 }
 
 #nav {
@@ -862,7 +864,7 @@ header #nav .logo {
 
   .pop-header-div {
     float: right;
-    margin-left: 21%;
+    margin-left: 70%;
   }
 
   .mainmenu {
@@ -902,8 +904,24 @@ header #nav .logo {
   }
 
   .pop-header-h3 {
+    color: #091E42;
     font-weight: 700;
     font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 1056px;
+    height: 40px;
+  }
+
+  .inf {
+   color:#344563;
+   font-size:15px;
+   font-weight: 500;
+   margin-top: 1%;
+   margin-bottom: 1%;
+   gap: 40px;
   }
 
   .pop-header-description {
@@ -941,6 +959,7 @@ header #nav .logo {
   .pop-header-img {
     width: 96%;
     height: 586px;
+
   }
 
   body {
@@ -1258,17 +1277,15 @@ header #nav .logo {
 
   .contact .contact-title {
     width: 801px;
-    margin-left: 39%;
-    position: relative;
-    top: 20%;
+    margin-top: 10%;
+    margin-left: 40%;
     font-size: 40px;
   }
 
   .contact-description {
     width: 100%;
     text-align: center;
-    position: relative;
-    top: 20%;
+    margin-top: 12%;
     margin-left: 1%;
     margin-top: 0;
     font-size: 20px;
@@ -1277,8 +1294,6 @@ header #nav .logo {
   .contact-form {
     width: 100%;
     left: 20px;
-    position: relative;
-    bottom: 24%;
   }
 
   #name,
@@ -1293,8 +1308,6 @@ header #nav .logo {
   }
 
   .Shape {
-    position: relative;
-    top: -15%;
-    margin-left: 48%;
+    margin-left: 47%;
   }
 }
