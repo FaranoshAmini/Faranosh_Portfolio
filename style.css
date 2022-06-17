@@ -894,7 +894,7 @@ header #nav .logo {
     background-color: #fff;
     border-radius: 2.5%;
   }
-  
+
   span {
     margin-left: 5%;
   }
@@ -994,7 +994,7 @@ header #nav .logo {
     font-size: 18px;
     line-height: 20px;
   }
-
+  
   #nav .logo:hover {
     text-decoration: underline;
     text-decoration-color: #23a3fa;
