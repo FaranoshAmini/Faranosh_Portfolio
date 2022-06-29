@@ -2,13 +2,13 @@
 
 # Faranosh_Portfolio
 
->I used the HTML and CSS to design this portfolio.
+>I used the HTML,CSS and javascript for creating this web page.
 
 
 ## Built With
 
 - HTML,CSS
-- No Frameworks
+- Javascript
 - Visual Studio
 
 ## Deployed page
@@ -39,8 +39,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to Microverse for this opportunity
+- Thanks to my Coding Partners, Morning Session, Standup Team and Code Reviewers
 
 ## 📝 License
 
