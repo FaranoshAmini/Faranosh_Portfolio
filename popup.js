@@ -20,14 +20,14 @@ const projects = {
     generalInf: ['Math Magicians', 'Front End Dev', 2023],
   },
   p17: {
-    name: 'Tonic',
+    name: 'Microverse Conference',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-    img: './Images/Desktop-version/nature.png',
-    technolgies: ['React', 'Redux', 'HTML', 'CSS', 'JavaScript'],
-    linkToLiveVersion: '#',
+      'Microverse is a global school for remote software developers where students learn through remote pair programming and dont pay anything until they get a job.',
+    img: './Images/Desktop-version/microverse.PNG',
+    technolgies: ['HTML', 'CSS', 'JavaScript'],
+    linkToLiveVersion: 'https://faranoshamini.github.io/Microverse-Conference',
     linkToSource: 'https://github.com/FaranoshAmini',
-    generalInf: ['CANOPY', 'Back End Dev', 2015],
+    generalInf: ['Conference', 'Front End', 2022],
   },
 };
 const myWork = document.querySelector('#work');
