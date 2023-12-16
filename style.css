@@ -1129,7 +1129,7 @@ header #nav .logo {
     padding: 12px;
     gap: 12px;
     width: 90%;
-    height: 552px;
+    height: 572px;
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
@@ -1159,7 +1159,7 @@ header #nav .logo {
   }
 
   .project-title {
-    margin-top: 5px;
+    margin-top: 12px;
     margin-left: 10px;
   }
 
