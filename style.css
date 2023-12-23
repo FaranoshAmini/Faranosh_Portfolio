@@ -1092,7 +1092,7 @@ header #nav .logo {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-left: 17%;
   }
 
@@ -1195,7 +1195,6 @@ header #nav .logo {
     border-top-right-radius: 10%;
     width: auto;
     height: 660px;
-    margin-top: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
@@ -1209,20 +1208,23 @@ header #nav .logo {
 
   .about-myself .first {
     padding-right: 20px;
-    margin-left: 20%;
+    margin-left: 10%;
   }
 
   .info {
-    width: 447px;
+    width: 407px;
     height: 102px;
+    text-align: justify;
+    margin-right: 2
+    0px;
   }
 
   .first .social-icon {
-    margin-left: 3%;
+    margin-left: 5%;
   }
 
   .about-myself .second .lang-section {
-    width: 684px;
+    width: 604px;
     display: flex;
     justify-content: space-between;
   }
