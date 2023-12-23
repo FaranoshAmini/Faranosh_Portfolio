@@ -4,8 +4,9 @@
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "popup.js",
   "scripts": {
+    "start": "your-start-command-here",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Faranosh Amini",
   "license": "ISC"
 }
