@@ -54,6 +54,7 @@ body {
 section {
   width: 100%;
   background-color: white;
+  margin-top: -80px;
 }
 
 .headline {
@@ -77,7 +78,7 @@ section {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 52px;
   list-style: none;
   color: #172b4d;
@@ -89,12 +90,14 @@ section {
 }
 
 .headline p {
-  height: 100px;
+  height: 150px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
+  padding-top: 6px;
   font-size: 16px;
   line-height: 24px;
+  text-align: justify;
   color: #344563;
   margin-top: 20px;
 }
@@ -107,7 +110,7 @@ section {
   text-align: justify;
   font-size: 15px;
   line-height: 24px;
-  margin-top: 70px;
+  margin-top: 80px;
   padding-top: 0;
 }
 
@@ -353,6 +356,7 @@ h1 {
   height: 60px;
   top: calc(50% - 48px / 2);
   margin-top: 16px;
+  border: 1px solid black;
   padding: 10px;
   text-align: center;
   margin-bottom: 32px;
@@ -653,7 +657,7 @@ h1 {
   display: flex;
   height: 56px;
   margin-top: 20%;
-  margin-left: 32%;
+  margin-left: 18%;
 }
 
 .contact-description {
@@ -663,7 +667,7 @@ h1 {
   text-align: center;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 28px;
   color: #ebebff;
 }
@@ -893,6 +897,7 @@ header #nav .logo {
     display: flex;
     flex-wrap: wrap;
     width: 96%;
+    height: 540px;
     margin-right: 0;
     grid-column-gap: 30px;
     margin-bottom: 100px;
