@@ -60,7 +60,8 @@ section {
 .headline {
   display: flex;
   justify-content: center;
-  background-image: url(./Images/Mobile-version/background-1.png), url(./Images/Mobile-version/background-2.png);
+  background-image: url(./Images/Mobile-version/background-1.png),
+    url(./Images/Mobile-version/background-2.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 718px;
@@ -137,6 +138,7 @@ section {
 .social-media-icons .mail {
   height: 20px;
 }
+
 h1 {
   margin-top: 20px;
   text-align: center;
@@ -267,7 +269,7 @@ h1 {
   margin: 0;
 }
 
-.mainmenu- > li {
+.mainmenu->li {
   margin: 10px;
   list-style: none;
 }
@@ -303,7 +305,7 @@ h1 {
   order: 1;
   flex-grow: 0;
   padding-bottom: 10px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -356,7 +358,6 @@ h1 {
   height: 60px;
   top: calc(50% - 48px / 2);
   margin-top: 16px;
-  border: 1px solid black;
   padding: 10px;
   text-align: center;
   margin-bottom: 32px;
@@ -382,7 +383,7 @@ h1 {
   display: inline;
 }
 
-.mainmenu > li:hover {
+.mainmenu>li:hover {
   margin: 10px;
   list-style: none;
   margin-right: 3px;
@@ -642,7 +643,8 @@ h1 {
   gap: 12px;
   border: none;
   outline: none;
-  background-image: url(./Images/Mobile-version/contact-1.png), url(./Images/Mobile-version/contact-2.png);
+  background-image: url(./Images/Mobile-version/contact-1.png),
+    url(./Images/Mobile-version/contact-2.png);
   background-position: right top, left top;
   background-repeat: no-repeat, no-repeat;
   background-size: 100%;
@@ -923,7 +925,7 @@ header #nav .logo {
     color: #091e42;
     font-weight: 700;
     font-size: 40px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     line-height: 52px;
     text-align: left;
     width: 1056px;
@@ -1225,8 +1227,7 @@ header #nav .logo {
     width: 407px;
     height: 102px;
     text-align: justify;
-    margin-right: 2
-    0px;
+    margin-right: 2px;
   }
 
   .first .social-icon {
@@ -1284,7 +1285,8 @@ header #nav .logo {
   }
 
   .contact {
-    background-image: url(./Images/Desktop-version/backgroung-3.png), url(./Images/Desktop-version/background-4.png);
+    background-image: url(./Images/Desktop-version/backgroung-3.png),
+      url(./Images/Desktop-version/background-4.png);
     background-size: 1520px;
     background-repeat: no-repeat;
     background-color: #fff;
