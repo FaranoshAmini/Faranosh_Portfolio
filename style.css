@@ -60,8 +60,7 @@ section {
 .headline {
   display: flex;
   justify-content: center;
-  background-image: url(./Images/Mobile-version/background-1.png),
-    url(./Images/Mobile-version/background-2.png);
+  background-image: url(./Images/Mobile-version/background-1.png), url(./Images/Mobile-version/background-2.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 718px;
@@ -72,6 +71,11 @@ section {
 
 .menu {
   display: none;
+}
+
+h1 {
+  margin-top: 20px;
+  text-align: center;
 }
 
 .headline h1 {
@@ -137,11 +141,6 @@ section {
 
 .social-media-icons .mail {
   height: 20px;
-}
-
-h1 {
-  margin-top: 20px;
-  text-align: center;
 }
 
 #work {
