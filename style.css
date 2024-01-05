@@ -269,7 +269,7 @@ h1 {
   margin: 0;
 }
 
-.mainmenu->li {
+.mainmenu- > li {
   margin: 10px;
   list-style: none;
 }
@@ -383,7 +383,7 @@ h1 {
   display: inline;
 }
 
-.mainmenu>li:hover {
+.mainmenu > li:hover {
   margin: 10px;
   list-style: none;
   margin-right: 3px;
@@ -643,8 +643,7 @@ h1 {
   gap: 12px;
   border: none;
   outline: none;
-  background-image: url(./Images/Mobile-version/contact-1.png),
-    url(./Images/Mobile-version/contact-2.png);
+  background-image: url(./Images/Mobile-version/contact-1.png), url(./Images/Mobile-version/contact-2.png);
   background-position: right top, left top;
   background-repeat: no-repeat, no-repeat;
   background-size: 100%;
@@ -1285,8 +1284,7 @@ header #nav .logo {
   }
 
   .contact {
-    background-image: url(./Images/Desktop-version/backgroung-3.png),
-      url(./Images/Desktop-version/background-4.png);
+    background-image: url(./Images/Desktop-version/backgroung-3.png), url(./Images/Desktop-version/background-4.png);
     background-size: 1520px;
     background-repeat: no-repeat;
     background-color: #fff;
