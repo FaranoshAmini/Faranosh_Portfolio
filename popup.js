@@ -6,7 +6,7 @@ const projects = {
     img: './Images/Desktop-version/Capstone.PNG',
     technolgies: ['React', 'Redux', 'Ruby', 'CSS', 'JavaScript'],
     linkToLiveVersion: 'https://car-booking-frontend.onrender.com',
-    linkToSource: 'https://github.com/FaranoshAmini',
+    linkToSource: 'https://github.com/hmunish/final-capstone-backend',
     generalInf: ['Car Booking', 'Front End & Back End', 2023],
   },
   p16: {
@@ -16,7 +16,7 @@ const projects = {
     img: './Images/Desktop-version/Math.PNG',
     technolgies: ['React', 'Redux', 'HTML', 'CSS', 'JavaScript'],
     linkToLiveVersion: 'https://faranosh-math-magicians.netlify.app',
-    linkToSource: 'https://github.com/FaranoshAmini',
+    linkToSource: 'https://github.com/FaranoshAmini/Math-Magicians',
     generalInf: ['Math Magicians', 'Front End Dev', 2023],
   },
   p17: {
@@ -26,7 +26,17 @@ const projects = {
     img: './Images/Desktop-version/microverse.PNG',
     technolgies: ['HTML', 'CSS', 'JavaScript'],
     linkToLiveVersion: 'https://faranoshamini.github.io/Microverse-Conference',
-    linkToSource: 'https://github.com/FaranoshAmini',
+    linkToSource: 'https://github.com/FaranoshAmini/Microverse-Conference',
+    generalInf: ['Conference', 'Front End', 2022],
+  },
+  p17: {
+    name: 'Microverse Conference',
+    description:
+      'Microverse is a global school for remote software developers where students learn through remote pair programming and dont pay anything until they get a job.',
+    img: './Images/Desktop-version/microverse.PNG',
+    technolgies: ['HTML', 'CSS', 'JavaScript'],
+    linkToLiveVersion: 'https://faranoshamini.github.io/Microverse-Conference',
+    linkToSource: 'https://github.com/FaranoshAmini/Microverse-Conference',
     generalInf: ['Conference', 'Front End', 2022],
   },
 };
