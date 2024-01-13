@@ -22,6 +22,11 @@ body {
   position: relative;
 }
 
+#nav {
+  position: fixed;
+  width: 100%;
+}
+
 .toolbar {
   display: flex;
   justify-content: space-between;
@@ -36,6 +41,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  animation: rotate 2s 2 linear;
 }
 
 .logo a {
@@ -48,7 +54,6 @@ body {
   display: flex;
   font-size: 18px;
   line-height: 20px;
-  text-decoration: none;
 }
 
 section {
@@ -74,12 +79,12 @@ section {
 }
 
 h1 {
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: center;
 }
 
 .headline h1 {
-  height: 150px;
+  height: 120px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -116,7 +121,7 @@ h1 {
   font-size: 15px;
   line-height: 24px;
   margin-top: 80px;
-  padding-top: 0;
+  padding-top: 35px;
 }
 
 .social-media-icons {
@@ -475,7 +480,7 @@ h1 {
   background-color: white;
   border-top-right-radius: 80px;
   width: 100%;
-  padding: 114px 34px;
+  padding: 50px 34px;
 }
 
 .first .intro {
@@ -494,6 +499,7 @@ h1 {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  text-align: justify;
   color: #344563;
   margin-top: 10px;
 }
@@ -534,29 +540,33 @@ h1 {
   color: #5e6c84;
 }
 
+.btn-resume a{
+  text-decoration: none;
+}
+
 .second {
   display: flex;
   flex-direction: column;
   margin: 0;
-  padding: 0;
-  height: 464px;
+  padding-top: 10px;
+  height: 1200px;
 }
 
 .second .language {
   display: flex;
   flex-direction: column;
-  height: 320px;
+  height: 520px;
   align-items: flex-start;
   width: 100%;
 }
 
 .second .language .lang-section {
   width: 100%;
-  height: 72px;
+  height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 10px;
+  padding-left: 5px;
   padding-right: 10px;
   font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
@@ -577,20 +587,20 @@ h1 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 12px;
-  gap: 12px;
-  height: 248px;
+  padding: 10px;
+  gap: 10px;
+  height: 28px;
 }
 
 .second .lname {
-  height: 66.72px;
+  height: 160px;
   background: #f7f7f9;
   border-radius: 8px;
   display: flex;
   justify-content: start;
   align-items: center;
-  padding: 12px;
-  gap: 16px;
+  padding: 10px;
+  gap: 10px;
 }
 
 .second .lang h3 {
@@ -601,6 +611,11 @@ h1 {
   color: #7f8cff;
 }
 
+.languages .lname img{
+  width: 48px;
+  height: 52px;
+}
+
 .l-connect {
   font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
@@ -608,7 +623,7 @@ h1 {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  margin-top: 20px;
+  margin-top: 70px;
 }
 
 .second .last {
@@ -1067,7 +1082,7 @@ header #nav .logo {
     width: 100%;
     height: 120px;
     margin-left: 17%;
-    margin-top: -10%;
+    /* margin-top: -10%; */
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -1259,12 +1274,13 @@ header #nav .logo {
     margin: 0;
     padding: 0;
     width: 122px;
-    height: 120px;
+    height: 90px;
   }
 
   .languages .lname img {
     width: 48px;
-    height: 48px;
+    height: 52px;
+    margin: auto;
   }
 
   .languages .lname h3 {
@@ -1272,6 +1288,7 @@ header #nav .logo {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
+    margin: auto;
   }
 
   .about-myself .second .last {
@@ -1333,5 +1350,25 @@ header #nav .logo {
     margin-left: 33%;
     color: white;
     font-size: 22px;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+
+  from {
+    color: blue;
+    font-style: italic;
+  }
+
+  to {
+    color: rgb(12, 30, 133);
+    font-style: italic;
   }
 }
