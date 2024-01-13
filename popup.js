@@ -29,15 +29,15 @@ const projects = {
     linkToSource: 'https://github.com/FaranoshAmini/Microverse-Conference',
     generalInf: ['Conference', 'Front End', 2022],
   },
-  p17: {
-    name: 'Microverse Conference',
+  p18: {
+    name: 'CryptoCoins',
     description:
-      'Microverse is a global school for remote software developers where students learn through remote pair programming and dont pay anything until they get a job.',
-    img: './Images/Desktop-version/microverse.PNG',
-    technolgies: ['HTML', 'CSS', 'JavaScript'],
-    linkToLiveVersion: 'https://faranoshamini.github.io/Microverse-Conference',
-    linkToSource: 'https://github.com/FaranoshAmini/Microverse-Conference',
-    generalInf: ['Conference', 'Front End', 2022],
+      'CryptoCoins is a web app that displays information about all leading cryptocurrencies in the world.',
+    img: './Images/crypto.png',
+    technolgies: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
+    linkToLiveVersion: 'https://cryptocoins-3t28k5br2-faranoshamini.vercel.app',
+    linkToSource: 'https://github.com/FaranoshAmini/React-Capstone-Project',
+    generalInf: ['CryptoCoins', 'Front End', 2022],
   },
 };
 const myWork = document.querySelector('#work');
