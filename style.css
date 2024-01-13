@@ -25,6 +25,11 @@ body {
 #nav {
   position: fixed;
   width: 100%;
+  display: flex;
+  top: 0;
+  left: 0;
+  padding-bottom: 20px;
+  background-color: white
 }
 
 .toolbar {
@@ -540,7 +545,7 @@ h1 {
   color: #5e6c84;
 }
 
-.btn-resume a{
+.btn-resume a {
   text-decoration: none;
 }
 
@@ -611,7 +616,7 @@ h1 {
   color: #7f8cff;
 }
 
-.languages .lname img{
+.languages .lname img {
   width: 48px;
   height: 52px;
 }
@@ -774,15 +779,6 @@ h1 {
   width: 132px;
   margin-left: 39%;
   margin-top: 6%;
-}
-
-#nav {
-  display: flex;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding-bottom: 20px;
-  background-color: white;
 }
 
 #nav nav:hover {
@@ -1082,7 +1078,6 @@ header #nav .logo {
     width: 100%;
     height: 120px;
     margin-left: 17%;
-    /* margin-top: -10%; */
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
