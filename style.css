@@ -22,6 +22,16 @@ body {
   position: relative;
 }
 
+#nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  top: 0;
+  left: 0;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
 .toolbar {
   display: flex;
   justify-content: space-between;
@@ -36,6 +46,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  animation: rotate 2s 2 linear;
 }
 
 .logo a {
@@ -48,18 +59,20 @@ body {
   display: flex;
   font-size: 18px;
   line-height: 20px;
-  text-decoration: none;
 }
 
 section {
   width: 100%;
   background-color: white;
+  margin-top: -80px;
 }
 
 .headline {
   display: flex;
   justify-content: center;
-  background-image: url(./Images/Mobile-version/background-1.png), url(./Images/Mobile-version/background-2.png);
+  background-image:
+              url(./Images/Mobile-version/background-1.png),
+    url(./Images/Mobile-version/background-2.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 718px;
@@ -72,12 +85,17 @@ section {
   display: none;
 }
 
+h1 {
+  margin-top: 40px;
+  text-align: center;
+}
+
 .headline h1 {
-  height: 150px;
+  height: 120px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 52px;
   list-style: none;
   color: #172b4d;
@@ -89,12 +107,14 @@ section {
 }
 
 .headline p {
-  height: 100px;
+  height: 150px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
+  padding-top: 6px;
   font-size: 16px;
   line-height: 24px;
+  text-align: justify;
   color: #344563;
   margin-top: 20px;
 }
@@ -104,10 +124,11 @@ section {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
+  text-align: justify;
   font-size: 15px;
   line-height: 24px;
-  margin-top: 40px;
-  padding-top: 0;
+  margin-top: 80px;
+  padding-top: 35px;
 }
 
 .social-media-icons {
@@ -295,7 +316,7 @@ section {
   order: 1;
   flex-grow: 0;
   padding-bottom: 10px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -345,7 +366,7 @@ section {
   border: 1px solid #396df2;
   border-radius: 5px;
   width: 124px;
-  height: 48px;
+  height: 60px;
   top: calc(50% - 48px / 2);
   margin-top: 16px;
   padding: 10px;
@@ -466,7 +487,7 @@ section {
   background-color: white;
   border-top-right-radius: 80px;
   width: 100%;
-  padding: 114px 34px;
+  padding: 50px 34px;
 }
 
 .first .intro {
@@ -485,6 +506,7 @@ section {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  text-align: justify;
   color: #344563;
   margin-top: 10px;
 }
@@ -525,29 +547,33 @@ section {
   color: #5e6c84;
 }
 
+.btn-resume a {
+  text-decoration: none;
+}
+
 .second {
   display: flex;
   flex-direction: column;
   margin: 0;
-  padding: 0;
-  height: 464px;
+  padding-top: 10px;
+  height: 1200px;
 }
 
 .second .language {
   display: flex;
   flex-direction: column;
-  height: 320px;
+  height: 520px;
   align-items: flex-start;
   width: 100%;
 }
 
 .second .language .lang-section {
   width: 100%;
-  height: 72px;
+  height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 10px;
+  padding-left: 5px;
   padding-right: 10px;
   font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
@@ -568,20 +594,20 @@ section {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 12px;
-  gap: 12px;
-  height: 248px;
+  padding: 10px;
+  gap: 10px;
+  height: 28px;
 }
 
 .second .lname {
-  height: 66.72px;
+  height: 160px;
   background: #f7f7f9;
   border-radius: 8px;
   display: flex;
   justify-content: start;
   align-items: center;
-  padding: 12px;
-  gap: 16px;
+  padding: 10px;
+  gap: 10px;
 }
 
 .second .lang h3 {
@@ -592,6 +618,11 @@ section {
   color: #7f8cff;
 }
 
+.languages .lname img {
+  width: 48px;
+  height: 52px;
+}
+
 .l-connect {
   font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
@@ -599,7 +630,7 @@ section {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  margin-top: 10px;
+  margin-top: 70px;
 }
 
 .second .last {
@@ -633,7 +664,9 @@ section {
   gap: 12px;
   border: none;
   outline: none;
-  background-image: url(./Images/Mobile-version/contact-1.png), url(./Images/Mobile-version/contact-2.png);
+  background-image:
+              url(./Images/Mobile-version/contact-1.png),
+    url(./Images/Mobile-version/contact-2.png);
   background-position: right top, left top;
   background-repeat: no-repeat, no-repeat;
   background-size: 100%;
@@ -648,7 +681,7 @@ section {
   display: flex;
   height: 56px;
   margin-top: 20%;
-  margin-left: 32%;
+  margin-left: 18%;
 }
 
 .contact-description {
@@ -658,7 +691,7 @@ section {
   text-align: center;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 28px;
   color: #ebebff;
 }
@@ -750,15 +783,6 @@ section {
   width: 132px;
   margin-left: 39%;
   margin-top: 6%;
-}
-
-#nav {
-  display: flex;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding-bottom: 20px;
-  background-color: white;
 }
 
 #nav nav:hover {
@@ -888,6 +912,7 @@ header #nav .logo {
     display: flex;
     flex-wrap: wrap;
     width: 96%;
+    height: 540px;
     margin-right: 0;
     grid-column-gap: 30px;
     margin-bottom: 100px;
@@ -913,7 +938,7 @@ header #nav .logo {
     color: #091e42;
     font-weight: 700;
     font-size: 40px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     line-height: 52px;
     text-align: left;
     width: 1056px;
@@ -1057,7 +1082,6 @@ header #nav .logo {
     width: 100%;
     height: 120px;
     margin-left: 17%;
-    margin-top: -10%;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -1092,7 +1116,7 @@ header #nav .logo {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 17%;
   }
 
@@ -1110,9 +1134,12 @@ header #nav .logo {
 
   #work {
     display: grid;
-    padding: 114px 24px;
+    padding: 40px 24px;
     background: #e5e5e5;
     padding-right: 8%;
+    text-align: center;
+    font-size: 25px;
+    font-family: "poppins", sans-serif;
   }
 
   .snapshot-portfolio {
@@ -1123,10 +1150,10 @@ header #nav .logo {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-    padding: 16px;
+    padding: 12px;
     gap: 12px;
     width: 90%;
-    height: 552px;
+    height: 572px;
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
@@ -1156,7 +1183,7 @@ header #nav .logo {
   }
 
   .project-title {
-    margin-top: 5px;
+    margin-top: 12px;
     margin-left: 10px;
   }
 
@@ -1192,7 +1219,6 @@ header #nav .logo {
     border-top-right-radius: 10%;
     width: auto;
     height: 660px;
-    margin-top: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
@@ -1206,20 +1232,22 @@ header #nav .logo {
 
   .about-myself .first {
     padding-right: 20px;
-    margin-left: 20%;
+    margin-left: 10%;
   }
 
   .info {
-    width: 447px;
+    width: 407px;
     height: 102px;
+    text-align: justify;
+    margin-right: 2px;
   }
 
   .first .social-icon {
-    margin-left: 3%;
+    margin-left: 5%;
   }
 
   .about-myself .second .lang-section {
-    width: 684px;
+    width: 604px;
     display: flex;
     justify-content: space-between;
   }
@@ -1245,12 +1273,13 @@ header #nav .logo {
     margin: 0;
     padding: 0;
     width: 122px;
-    height: 120px;
+    height: 90px;
   }
 
   .languages .lname img {
     width: 48px;
-    height: 48px;
+    height: 52px;
+    margin: auto;
   }
 
   .languages .lname h3 {
@@ -1258,6 +1287,7 @@ header #nav .logo {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
+    margin: auto;
   }
 
   .about-myself .second .last {
@@ -1269,7 +1299,9 @@ header #nav .logo {
   }
 
   .contact {
-    background-image: url(./Images/Desktop-version/backgroung-3.png), url(./Images/Desktop-version/background-4.png);
+    background-image:
+                      url(./Images/Desktop-version/backgroung-3.png),
+      url(./Images/Desktop-version/background-4.png);
     background-size: 1520px;
     background-repeat: no-repeat;
     background-color: #fff;
@@ -1319,5 +1351,25 @@ header #nav .logo {
     margin-left: 33%;
     color: white;
     font-size: 22px;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+
+  from {
+    color: blue;
+    font-style: italic;
+  }
+
+  to {
+    color: rgb(12, 30, 133);
+    font-style: italic;
   }
 }

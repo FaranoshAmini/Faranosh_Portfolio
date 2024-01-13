@@ -1,33 +1,43 @@
 const projects = {
   p15: {
-    name: 'Tonic',
+    name: 'Car Booking',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-    img: './Images/Desktop-version/nature.png',
-    technolgies: ['React', 'Redux', 'HTML', 'CSS', 'JavaScript'],
-    linkToLiveVersion: '#',
-    linkToSource: 'https://github.com/FaranoshAmini',
-    generalInf: ['CANOPY', 'Back End Dev', 2015],
+      'The project we built for the Final Project capstone is based on an app to book an appointment for a Car in the world.',
+    img: './Images/Desktop-version/Capstone.PNG',
+    technolgies: ['React', 'Redux', 'Ruby', 'CSS', 'JavaScript'],
+    linkToLiveVersion: 'https://car-booking-frontend.onrender.com',
+    linkToSource: 'https://github.com/hmunish/final-capstone-backend',
+    generalInf: ['Car Booking', 'Front End & Back End', 2023],
   },
   p16: {
-    name: 'Tonic',
+    name: 'Math Magicians',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-    img: './Images/Desktop-version/nature.png',
+      'Math magicians is a website for all fans of mathematics. It is a single-page app (SPA) that allows users to make simple calculations and read random math-related.',
+    img: './Images/Desktop-version/Math.PNG',
     technolgies: ['React', 'Redux', 'HTML', 'CSS', 'JavaScript'],
-    linkToLiveVersion: '#',
-    linkToSource: 'https://github.com/FaranoshAmini',
-    generalInf: ['CANOPY', 'Back End Dev', 2015],
+    linkToLiveVersion: 'https://faranosh-math-magicians.netlify.app',
+    linkToSource: 'https://github.com/FaranoshAmini/Math-Magicians',
+    generalInf: ['Math Magicians', 'Front End Dev', 2023],
   },
   p17: {
-    name: 'Tonic',
+    name: 'Microverse Conference',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-    img: './Images/Desktop-version/nature.png',
-    technolgies: ['React', 'Redux', 'HTML', 'CSS', 'JavaScript'],
-    linkToLiveVersion: '#',
-    linkToSource: 'https://github.com/FaranoshAmini',
-    generalInf: ['CANOPY', 'Back End Dev', 2015],
+      'Microverse is a global school for remote software developers where students learn through remote pair programming and dont pay anything until they get a job.',
+    img: './Images/Desktop-version/microverse.PNG',
+    technolgies: ['HTML', 'CSS', 'JavaScript'],
+    linkToLiveVersion: 'https://faranoshamini.github.io/Microverse-Conference',
+    linkToSource: 'https://github.com/FaranoshAmini/Microverse-Conference',
+    generalInf: ['Conference', 'Front End', 2022],
+  },
+  p18: {
+    name: 'CryptoCoins',
+    description:
+      'CryptoCoins is a web app that displays information about all leading cryptocurrencies in the world.',
+    img: './Images/crypto.png',
+    technolgies: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
+    linkToLiveVersion: 'https://cryptocoins-3t28k5br2-faranoshamini.vercel.app',
+    linkToSource: 'https://github.com/FaranoshAmini/React-Capstone-Project',
+    generalInf: ['CryptoCoins', 'Front End', 2022],
   },
 };
 const myWork = document.querySelector('#work');
