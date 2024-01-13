@@ -71,7 +71,7 @@ section {
   display: flex;
   justify-content: center;
   background-image:
-          url(./Images/Mobile-version/background-1.png),
+              url(./Images/Mobile-version/background-1.png),
     url(./Images/Mobile-version/background-2.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -665,7 +665,7 @@ h1 {
   border: none;
   outline: none;
   background-image:
-          url(./Images/Mobile-version/contact-1.png),
+              url(./Images/Mobile-version/contact-1.png),
     url(./Images/Mobile-version/contact-2.png);
   background-position: right top, left top;
   background-repeat: no-repeat, no-repeat;
@@ -1300,7 +1300,7 @@ header #nav .logo {
 
   .contact {
     background-image:
-                url(./Images/Desktop-version/backgroung-3.png),
+                      url(./Images/Desktop-version/backgroung-3.png),
       url(./Images/Desktop-version/background-4.png);
     background-size: 1520px;
     background-repeat: no-repeat;
